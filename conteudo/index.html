@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Comunicação de projetos culturais</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,12 +13,13 @@
     <link rel="stylesheet" href="../assets/css/animate.min.css" />
     <link rel="stylesheet" href="../assets/fa/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/template.css">
-
+    <link rel="stylesheet" href="assets/custom.css">
     <link rel="stylesheet" href="../assets/print/print.css">
-   
 
-  </head>
-  <body class="bg-sesc">
+
+</head>
+
+<body class="bg-sesc">
     <div class="preloader">
         <div class="anim"></div>
         <h1>Aguarde enquanto o conteúdo é carregado.</h1>
@@ -26,9 +28,9 @@
     <img src="../assets/img/logo_sesc_horizontal.svg" id="marcadaguaLogo">
 
     <header id="topo" class="sesc no-print">
-        <img src="../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">        
+        <img src="../assets/img/cabecalho/cabecalho.png" class="d-none d-lg-block img-fluid" alt="">
     </header>
-    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->    
+    <!-- Section principal deve ter o booklet, pois faz parte do print.js -->
     <section id="booklet">
         <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
         <header class="titulo-conteudo mb-0 print">
@@ -36,169 +38,522 @@
                 <!--titulo do curso para o print e leitor de tela-->
                 <!-- <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Matemática</h1> -->
                 <div class="row g-0 pb-4 pt-4">
-                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">                      
-                        <h2>Comunicação de projetos culturais</h2>
+                    <div class="col-9 d-flex flex-column justify-content-center align-items-start">
+                        <!-- <h2>Comunicação de projetos culturais</h2> -->
                     </div>
                     <div class="col-3 d-flex flex-column justify-content-center align-items-end">
-                        <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i> imprimir</button>                            
-                    </div>                                       
+                        <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i
+                                class="fas fa-print "></i> imprimir</button>
+                    </div>
                 </div>
-            </div>         
+            </div>
         </header>
         <section class="paginas">
             <div class="pagina">
-                <h3>Introdução</h3>
-                <p>Olá, estudante! Seja bem-vindo(a) a mais este módulo do curso. Aqui você vai “costurar” mais um pedaço em um “tecido” de conhecimentos, dando um <em>zoom</em> nos elementos da comunicação do projeto cultural, que formam uma parte muito importante da sua realização.</p>
-                <h4>!! visual de televisão</h4>
-                <div class="caixa">
-                    <p><b>E, falando em comunicação, você se lembra do Chacrinha?</b></p>
-                    <p>José Abelardo Barbosa de Medeiros, o Chacrinha, foi um dos maiores comunicadores da televisão e do rádio no Brasil. Se você não se lembra dele ou nunca viu o “Velho Guerreiro” em ação, vale muito a pena procurar vídeos dele pela Internet.</p>
+                    <div class="bloco-1-1">
+                        <div class="container">
+                            <h3>Introdução</h3>
+                            <p>Olá, estudante! Seja bem-vindo(a) a mais este módulo do curso. Aqui você vai “costurar” mais um
+                                pedaço em um “tecido” de conhecimentos, dando um <em>zoom</em> nos elementos da comunicação do
+                                projeto cultural, que formam uma parte muito importante da sua realização.</p>
+                            
+                            <div class="caixa-tv">
+                                <p><b>E, falando em comunicação, você se lembra do Chacrinha?</b></p>
+                                <p>José Abelardo Barbosa de Medeiros, o Chacrinha, foi um dos maiores comunicadores da televisão e
+                                    do rádio no Brasil. Se você não se lembra dele ou nunca viu o “Velho Guerreiro” em ação, vale
+                                    muito a pena procurar vídeos dele pela Internet.</p>
+                                <figure>
+                                    <img src="assets/01/tv_chacrinha.png" class="img-fluid d-block m-auto"
+                                        alt="Na foto, em preto e branco, há, em primeiro plano, o apresentador Chacrinha, um homem branco de cabelos grisalhos, vestindo um paletó bordado com flores e uma gravata exageradamente grande, usando um microfone prateado preso ao peito. Na cabeça de Chacrinha, há uma extravagante cartola com os dizeres “Minas Gerais”. Ao fundo, o público do programa Cassino do Chacrinha.">
+                                    <figcaption>Figura 1 - José Abelardo Barbosa de Medeiros, o Chacrinha<br>
+                                        Fonte: Costa (2018)</figcaption>
+                                </figure>
+                                <p>Chacrinha foi o criador de frases icônicas, como “Eu não vim aqui para explicar, eu vim aqui para
+                                    confundir” ou “Na TV nada se cria, tudo se copia!”. Porém a frase dele a ser destacada aqui é
+                                    outra: “Quem não se comunica, se trumbica”.</p>
+                            </div>
+            
+                            <p>Essa máxima, que vale para muitas áreas da vida, vale também para a produção cultural. Na realização
+                                de um projeto cultural, “quem não se comunica, se trumbica”. Então, para não se “trumbicar” nos
+                                projetos, é importante entender as ferramentas que ajudam no momento de planejar e executar a
+                                comunicação de um projeto cultural.</p>
+                            <p>Assim, neste quarto módulo da segunda etapa deste curso, será abordada a construção do plano de
+                                comunicação, que é onde se define e organiza as ações relativas à comunicação do projeto cultural:
+                                conceitua-se a identidade e a marca do projeto, define-se o público-alvo, definem-se as peças de
+                                divulgação que serão produzidas (cartazes, vídeos, inserções de rádio, anúncios em jornais,
+                                postagens em redes sociais, entre outros) e organiza-se sua distribuição.</p>
+                            <p>Conforme já visto no segundo módulo desta etapa, construir um projeto cultural é como contar uma
+                                história. Uma boa história é coerente, tem conexão entre as suas partes e é fácil de entender. A
+                                mesma premissa vale para o projeto cultural e também para o plano de comunicação.</p>
+                            <p>Para auxiliar nessa construção, apresentam-se duas ferramentas bastante úteis para o planejamento de
+                                comunicação: <b>matriz SWOT</b> (<em>strengths</em>, <em>weaknesses</em>, <em>opportunities</em> e
+                                <em>threats</em>) ou <b>matriz FOFA</b> (forças, oportunidades, fraquezas e ameaças); e <b>4 Ps</b>
+                                (produto, preço, praça e promoção) e <b>7 Ps</b> (produto, preço, promoção, praça, pessoas,
+                                percepção e processo) do <em>marketing</em>, que ajudam a dar mais clareza e coerência para o
+                                planejamento.
+                            </p>
+                            <p>Caro estudante, até este momento, foram abordados diversos aspectos que precisam ser planejados para
+                                a realização de um projeto cultural. É possível que você esteja pensando: “É coisa demais para
+                                planejar, não tem como dar conta!”. E, de fato, é muita coisa mesmo! Porém isso não deve preocupar
+                                você, pois nada disso é feito de forma individual, ou seja, você não fará sozinho.</p>
+                            <p>Existem profissionais especializados nas diferentes tarefas envolvidas na realização do projeto
+                                cultural. No caso da comunicação, pode-se contar com o <em>designer</em>, o assessor de imprensa e o
+                                assessor para mídias sociais.</p>
+                            <p>Para estar cada vez mais perto da realidade e “costurar” de forma mais firme os conhecimentos com a
+                                prática, ouça, neste módulo, um <em>podcast</em> de uma conversa com a assessora de imprensa e
+                                mídias sociais <b>Cati Carpes</b>, que tem uma grande experiência de trabalho com comunicação de
+                                projetos culturais.</p>
+                            <p>Então, caro estudante, prepare-se para começar as “costuras”!</p>
+                        </div>
+                    </div>
+    
+                    <div class="bloco-1-2">
+                        <div class="container">
+                            <h3>O que é plano de comunicação: conceito, modelos e estruturas</h3>
+                            <p>Atualmente, ou melhor, há algum tempo, nada funciona sem comunicação. Um projeto cultural destina-se
+                                a um público e, portanto, precisa saber se comunicar com ele para que as relações se estabeleçam.
+                                Por isso, um projeto cultural precisa de um <em>e-mail</em>, um <em>blog</em>, talvez, ou um perfil
+                                em redes sociais, como Facebook ou Instagram. E é mais difícil ainda pensar que esse projeto não
+                                utiliza algum veículo de comunicação para se comunicar com seu público, como jornal, rádio, TV,
+                                <em>sites</em>, redes sociais, ou que não faça cartazes, panfletos, <em>banners</em>, entre outros.
+                            </p>
+                            <p>Assim, é preciso entender um pouco do universo da comunicação social (publicidade,
+                                <em>marketing</em>, jornalismo e relações públicas), adicionando à sua “caixinha de costura” algumas
+                                ferramentas que podem ser usadas, ou simplesmente conhecer esse universo, para saber o que fazer
+                                quando se deparar com editais, ou, até mesmo por vontade do projeto cultural, com o plano de
+                                comunicação desse projeto.
+                            </p>
+                            
+                            <div class="caixa-seliga">
+                                <p>Nos materiais de Linguagens e suas Tecnologias, foram apresentados os diferentes gêneros
+                                    textuais. Aqui, neste módulo, você vai ver uma aplicação prática dos gêneros publicitário e
+                                    jornalístico, que são muito importantes para a comunicação de um projeto cultural.</p>
+                            </div>
+                            <p>O plano de comunicação ou divulgação estrutura-se com textos e tabelas que darão conta de toda a
+                                criação das ferramentas de comunicação entre o projeto cultural e o seu público.</p>
+                            <p>De forma resumida, o plano de comunicação deve conter:</p>
+            
+                            <ul>
+                                <li>Pequeno resumo sobre as características do projeto e seus realizadores (branding)</li>
+                                <li>Texto curto, de forma jornalística, convidando o público a comparecer (release)</li>
+                                <li>Breve explicação sobre como acontecerá a abordagem (posicionamento do marketing do evento)</li>
+                                <li>Tabela com as peças publicitárias e os veículos de comunicação por onde será realizada a
+                                    campanha de comunicação/divulgação</li>
+                                <li>Tabela com os profissionais envolvidos na execução do plano</li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="bloco-1-3">
+                        <p>A seguir, você encontra o plano de divulgação do espetáculo <em>Se Essa Rua Fosse Minha, Eu Fazia Ela
+                                Dançar</em>, realizado por Mirella no segundo capítulo da história em quadrinhos <em>Multiverso
+                                da Cultura</em>, no módulo anterior.</p>
+                        <h4>!! modal pg 6</h4>
+                    </div>
+
+
+                    <div class="bloco-1-4">
+                        <p>Agora, para selecionar as opções mais adequadas de materiais e meios para a divulgação, é necessário
+                            compreender melhor os diferentes tipos de divulgação e de veículos de comunicação. Além disso, é
+                            possível contratar profissionais que auxiliarão a produção cultural nessa tarefa. Veja a seguir
+                            quais recursos podem ser utilizados, clicando sobre os <em>cards</em>.</p>
+                        <h4>!! painel modais pg 10</h4>
+        
+                        <p>Nesse sentido, é importante ter o orçamento destinado a essa parte do projeto, pois é ela que vai
+                            delimitar as possibilidades, afinal os valores pagos em uma peça de <em>outdoor</em>
+                            (<em>banners</em> grandes colocados nas vias da cidade) e uma tiragem de cartazes são extremamente
+                            diferentes. Deve-se observar o mecanismo de fomento/financiamento, pois, em alguns casos, tem-se um
+                            valor mínimo e/ou máximo que o projeto pode destinar para comunicação/divulgação. Deve-se, ainda,
+                            prever os pagamentos, se for o caso, dos profissionais da comunicação que serão contratados. </p>
+                        <div class="caixa icone importante">
+                            <p>O produtor cultural deve conhecer os profissionais, as funções e os materiais de
+                                comunicação/divulgação, para acompanhar, aprovar e validar valores, peças e campanhas de
+                                comunicação do projeto cultural. </p>
+                        </div>
+                    </div>
+    
+                    <div class="bloco-1-5">
+                        <h3>Entrevista com Cati Carpes</h3>
+                        <p>O plano de comunicação é um elemento fundamental para que o projeto cultural possa atingir seu
+                            público-alvo, afinal “quem não se comunica, se trumbica”, como dizia Chacrinha.  </p>
+                        <p>Para ajudar a compreender melhor o processo de construção do plano de comunicação e as funções dos
+                            profissionais envolvidos na comunicação do projeto cultural, a assessora de imprensa e mídias
+                            sociais Cati Carpes foi convidada a compartilhar um pouco das experiências práticas dela e a dar
+                            muitas dicas valiosíssimas.  </p>
+                        <p>Então, ouça com atenção o <em>podcast</em> a seguir e, depois, poste no fórum de interação o que
+                            achou da conversa com a assessora. Clique no <em>player</em> para ouvir. </p>
+                    </div>
+    
+                    <div class="bloco-1-6"><h4>!! esquema da bru pg 12</h4></div>
+            </div>
+
+            <div class="pagina">
+                <div class="container">
+                    <h2><em>Marketing</em> e cultura: dos valores à palavra e à imagem</h2>
+                    <p>Quando se pensa em produtos e serviços (no caso, aqui, culturais), estabelece-se proximidade com o
+                        conceito de marca. Assim, define-se que marca é a representação simbólica na qual um produto/serviço
+                        é identificado, de maneira que o público a reconheça de imediato. Esse símbolo traz, na sua forma,
+                        qualidades que fazem com que qualquer pessoa saiba do que se trata o produto/serviços, passem uma
+                        ideia/conceito e valorizem experiências que envolvam o produto/serviço. </p>
+    
+                    <h4>!! anotacao, tooltip</h4>
+                    <p>Não confunda o produto/serviço propriamente dito com a marca, pois no <em>marketing</em> “produtos
+                        são feitos nas fábricas, mas marcas são construídas na mente” (LANDOR <em>apud</em> SERVIÇO
+                        BRASILEIRO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS, 2019). Sendo assim, tem-se a ideia de que a marca
+                        do produto/serviço/evento passa algo, tem uma personalidade, uma visão, um relacionamento com o
+                        público, que é definido com a palavra em inglês <em>“branding”</em>.</p>
+                    <p>Assim sendo, <em>branding</em> ou <em>brand management</em> é uma estratégia de gestão da marca que
+                        visa torná-la mais reconhecida pelo seu público e mais presente no mercado. A estratégia busca a
+                        admiração e o desejo pelos valores que a marca cria em torno de si mesma. Seu objetivo principal é
+                        despertar sensações e criar conexões fortes, que serão fatores relevantes para que o cliente escolha
+                        a marca no momento de decisão de compra (SERVIÇO BRASILEIRO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS,
+                        2019).</p>
+                    <p>Portanto, é preciso estar atento à gestão da própria marca (no caso, produto/serviço cultural que se
+                        está produzindo), a fim de carregar alguns benefícios, como: confiança do público, presença no
+                        imaginário do consumidor, mais valor agregado e busca pela fidelização de plateia. Dessa forma, o
+                        <em>branding</em> é a visão que as pessoas têm da marca e o que a diferencia das outras. Para tanto,
+                        a produção precisa saber posicionar seu produto/serviço no mercado (aqui, cultural). Esse
+                        posicionamento é contínuo e ininterrupto, pois é um processo de levar a marca para as mentes e os
+                        corações do público.
+                    </p>
+    
+                    <p>As seguintes estratégias para posicionamento de marca podem ser adotadas:</p>
+                    <h4>!! tool tips</h4>
+                    <ul>
+                        <li>Identificar com mais exatidão seu público-alvo.</li>
+                        <li>Escrever em uma frase o que o seu produto/serviço pode proporcionar ao cliente.</li>
+                        <li>Definir o posicionamento atual de sua marca em relação a outras marcas semelhantes.</li>
+                        <li>Definir o seu diferencial em comparação a iniciativas semelhantes à sua.</li>
+                        <li>Identificar/criar um pequeno texto que responda à pergunta: o que torna sua marca especial?</li>
+                        <li>Criar um documento de posicionamento com duas ou três frases que comunicam os valores exclusivos
+                            da sua marca, ou seja, o que ela defende e quais são a visão e a missão dela.</li>
+                        <li>Definir como quer que sua marca seja reconhecida.</li>
+                    </ul>
+                    <p>Assim, percebe-se que o <em>branding</em> é um processo criativo e de pesquisa de mercado, pois um
+                        posicionamento bem estruturado e forte faz com que seu público-alvo saiba, confie e acredite na sua
+                        marca e, por consequência, no seu produto/serviço/evento cultural.</p>
+                    <p>Veja alguns exemplos bem-sucedidos clicando nos botões a seguir.</p>
+                    <div class="accordion painel-gaitinha" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Nike – <em>just do it</em>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>“Nike – <em>just do it</em>”, traduzido para “Nike – apenas faça”, é um dos
+                                        <em>brandings</em> mais famosos do <em>marketing</em> mundial. A empresa, que se
+                                        posiciona no ramo de sapatos esportivos, investe no conceito “atitude”. Suas
+                                        campanhas buscam passar para o seu público um estilo de vida ativo e atlético, com
+                                        produtos de qualidade <em>premium</em> e <em>designs</em> exclusivos.
+                                    </p>
+                                    <figure>
+                                        <img src=""
+                                            alt="Foto, com fundo branco, em primeiro plano, de homem negro sorrindo e usando uma camiseta preta com logotipo da Nike, escrito “just do it”.">
+                                        <figcaption>Figura 2 – Camiseta da Nike<br>
+                                            Fonte: Nike (c2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Itaú Cultural (IC)
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>O IC é uma organização cultural, mantida pelo banco, que fomenta e incentiva a
+                                        cultura pelo Brasil. Na página oficial da organização, é possível ter acesso à
+                                        visão, à missão e aos valores do IC. Destaca-se o propósito, que é “inspirar o poder
+                                        criativo para a transformação das pessoas” (QUEM SOMOS, c2022).</p>
+                                    <figure>
+                                        <img src=""
+                                            alt="Imagem do site do IC, com fundo preto e várias pessoas vestidas de diferentes maneiras, com o braço erguido e a mão aberta, como se fossem pegar algo no alto.">
+                                        <figcaption>Figura 3 – <em>Site</em> do IC<br>
+                                            Fonte: Itaú Cultural (c2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Grupo Balcão
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Em grupos artísticos como o Grupo Galpão, o <em>branding</em> pode aparecer como a
+                                        própria apresentação, geralmente em <em>site</em> oficial, contando a história do
+                                        grupo, sua visão, seu logotipo e toda a parte de <em>design</em>.</p>
+                                    <figure>
+                                        <img src=""
+                                            alt="Imagem em preto e branco. Ao topo, há escrito em amarelo “Grupo Galpão”. À esquerda, há uma foto com os 12 integrantes do grupo, estando 6 sentados em caixotes e 6 em pé atrás. Na direita, há uma breve apresentação do grupo: “O Grupo Galpão é uma das companhias mais importantes do cenário teatral brasileiro, cuja origem está ligada ao teatro popular e de rua. Criado em 1982, o grupo desenvolve um teatro que alia rigor, pesquisa, busca de linguagem, com montagem de peças que possuem grande poder de comunicação com o público”.">
+                                        <figcaption>Figura 4 – Grupo Galpão<br>
+                                            Fonte: Grupo Galpão (c2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Percebe-se que o posicionamento da marca, quando se fala de cultura, tem a ideia de transmitir ao
+                        público a “experiência” que o produto/serviço cultural proporciona, indo em direção ao conceito de
+                        marca. Essa parte se torna importante no sentido do plano de comunicação, pois pode-se trazer o
+                        <em>branding</em> com a planilha de divulgação e comunicação. A produção pode situar os valores, a
+                        missão e a visão, em mídias oficiais do projeto.
+                    </p>
+    
+    
+                    <p>Para melhor definir um <em>branding</em>, usam-se, na comunicação, as ferramentas do <em>mix</em> de
+                        <em>marketing</em> e da matriz SWOT, para melhor definir parâmetros para o plano de comunicação e
+                        divulgação. Por exemplo, quando Mirella pensa e realiza os cartazes e <em>banners</em> de divulgação
+                        do espetáculo que produz, o que ela leva em consideração nessa criação? Com certeza o
+                        <em>branding</em> para estimular seu público. Para isso, utilizam-se o <em>mix</em> de
+                        <em>marketing</em> e a matriz SWOT. Clique nos botões a seguir e veja como são utilizadas essas
+                        ferramentas.
+                    </p>
+                    <h4>!! modais 100 pg 6</h4>
+                </div>
+            </div>
+
+            <div class="pagina">
+                <div class="container">
+                    <h2>Relacionamento com marcas (logos e identidade visual)</h2>
+                    <p>É importante que haja uma aproximação da produção do projeto com a empresa (patrocinadora, parceira
+                        ou que promove o evento cultural), para criar um relacionamento que prepare o “terreno” para a
+                        parceria que vai divulgar o produto artístico-cultural atrelado à marca dessa empresa. Alguns
+                        aspectos devem ser levados em consideração, tais como: a qualidade do projeto cultural que vai
+                        fomentar o público-alvo e a formação de públicos. </p>
+                    <p>Dessa forma, é possível criar uma rede de cooperação, um estímulo à criatividade, que vai
+                        proporcionar a divulgação do projeto em questão e a visibilidade da marca.</p>
+                    <p>Algumas empresas investem em projetos a longo prazo e criam uma parceria duradoura com festivais,
+                        grupos ou produtores, como o Instituto Cultural Vale. O Grupo Corpo, de Belo Horizonte (MG), é um
+                        dos grupos de dança mais importantes do país. O grupo conta com o patrocínio <em>premium</em> do
+                        Instituto Cultural Vale, o patrocínio <em>master</em> de Arcelor Mittal, o patrocínio local (de SP)
+                        da Vivo e do Itaú e o patrocínio local (de MG) da Cemig (Companhia Energética de Minas Gerais) e da
+                        Unimed (Confederação Nacional das Companhias Médicas). </p>
                     <figure>
-                        <img src="" alt="Na foto, em preto e branco, há, em primeiro plano, o apresentador Chacrinha, um homem branco de cabelos grisalhos, vestindo um paletó bordado com flores e uma gravata exageradamente grande, usando um microfone prateado preso ao peito. Na cabeça de Chacrinha, há uma extravagante cartola com os dizeres “Minas Gerais”. Ao fundo, o público do programa Cassino do Chacrinha.">
-                        <figcaption>Figura 1 - José Abelardo Barbosa de Medeiros, o Chacrinha<br>    
-                            Fonte: Costa (2018)</figcaption>
+                        <img src=""
+                            alt="Cartaz de divulgação do espetáculo Onqotô e Gil, do Grupo Corpo. Todo branco, no topo há “Grupo Corpo, direção artística Paulo Pederneiras”. Ao centro, há a imagem de dois bailarinos vestidos de branco, sendo um homem deitado no chão com braços erguidos como se fosse segurar a mulher que está no alto caindo com braços e pernas esticados. Ao lado direito, há os logotipos dos patrocinadores e apoiadores.">
+                        <figcaption>Figura 6 – Cartaz do espetáculo <em>Onqotô e Gil</em>, do Grupo Corpo<br>
+                            Fonte: Grupo Corpo (c2022) </figcaption>
                     </figure>
-                    <p>Chacrinha foi o criador de frases icônicas, como “Eu não vim aqui para explicar, eu vim aqui para confundir” ou “Na TV nada se cria, tudo se copia!”. Porém a frase dele a ser destacada aqui é outra: “Quem não se comunica, se trumbica”.</p>
-                </div>
-
-                <p>Essa máxima, que vale para muitas áreas da vida, vale também para a produção cultural. Na realização de um projeto cultural, “quem não se comunica, se trumbica”. Então, para não se “trumbicar” nos projetos, é importante entender as ferramentas que ajudam no momento de planejar e executar a comunicação de um projeto cultural.</p>
-                <p>Assim, neste quarto módulo da segunda etapa deste curso, será abordada a construção do plano de comunicação, que é onde se define e organiza as ações relativas à comunicação do projeto cultural: conceitua-se a identidade e a marca do projeto, define-se o público-alvo, definem-se as peças de divulgação que serão produzidas (cartazes, vídeos, inserções de rádio, anúncios em jornais, postagens em redes sociais, entre outros) e organiza-se sua distribuição.</p>
-                <p>Conforme já visto no segundo módulo desta etapa, construir um projeto cultural é como contar uma história. Uma boa história é coerente, tem conexão entre as suas partes e é fácil de entender. A mesma premissa vale para o projeto cultural e também para o plano de comunicação.</p>
-                <p>Para auxiliar nessa construção, apresentam-se duas ferramentas bastante úteis para o planejamento de comunicação: <b>matriz SWOT</b> (<em>strengths</em>, <em>weaknesses</em>, <em>opportunities</em> e <em>threats</em>) ou <b>matriz FOFA</b> (forças, oportunidades, fraquezas e ameaças); e <b>4 Ps</b> (produto, preço, praça e promoção) e <b>7 Ps</b> (produto, preço, promoção, praça, pessoas, percepção e processo) do <em>marketing</em>, que ajudam a dar mais clareza e coerência para o planejamento.</p>
-                <p>Caro estudante, até este momento, foram abordados diversos aspectos que precisam ser planejados para a realização de um projeto cultural. É possível que você esteja pensando: “É coisa demais para planejar, não tem como dar conta!”. E, de fato, é muita coisa mesmo! Porém isso não deve preocupar você, pois nada disso é feito de forma individual, ou seja, você não fará sozinho.</p>
-                <p>Existem profissionais especializados nas diferentes tarefas envolvidas na realização do projeto cultural. No caso da comunicação, pode-se contar com o <em>designer</em>, o assessor de imprensa e o assessor para mídias sociais.</p>
-                <p>Para estar cada vez mais perto da realidade e “costurar” de forma mais firme os conhecimentos com a prática, ouça, neste módulo, um <em>podcast</em> de uma conversa com a assessora de imprensa e mídias sociais <b>Cati Carpes</b>, que tem uma grande experiência de trabalho com comunicação de projetos culturais.</p>
-                <p>Então, caro estudante, prepare-se para começar as “costuras”!</p>
-
-                <h3>O que é plano de comunicação: conceito, modelos e estruturas</h3>
-                <p>Atualmente, ou melhor, há algum tempo, nada funciona sem comunicação. Um projeto cultural destina-se a um público e, portanto, precisa saber se comunicar com ele para que as relações se estabeleçam. Por isso, um projeto cultural precisa de um <em>e-mail</em>, um <em>blog</em>, talvez, ou um perfil em redes sociais, como Facebook ou Instagram. E é mais difícil ainda pensar que esse projeto não utiliza algum veículo de comunicação para se comunicar com seu público, como jornal, rádio, TV, <em>sites</em>, redes sociais, ou que não faça cartazes, panfletos, <em>banners</em>, entre outros.</p>
-                <p>Assim, é preciso entender um pouco do universo da comunicação social (publicidade, <em>marketing</em>, jornalismo e relações públicas), adicionando à sua “caixinha de costura” algumas ferramentas que podem ser usadas, ou simplesmente conhecer esse universo, para saber o que fazer quando se deparar com editais, ou, até mesmo por vontade do projeto cultural, com o plano de comunicação desse projeto.</p>
-                <h4>!! se liga? pg5</h4>
-                <div class="caixa">
-                    <p>Nos materiais de Linguagens e suas Tecnologias, foram apresentados os diferentes gêneros textuais. Aqui, neste módulo, você vai ver uma aplicação prática dos gêneros publicitário e jornalístico, que são muito importantes para a comunicação de um projeto cultural.</p>
-                </div>
-                <p>O plano de comunicação ou divulgação estrutura-se com textos e tabelas que darão conta de toda a criação das ferramentas de comunicação entre o projeto cultural e o seu público.</p>
-                <p>De forma resumida, o plano de comunicação deve conter:</p>
-
-                <ul>
-                    <li>Pequeno resumo sobre as características do projeto e seus realizadores (branding)</li>
-                    <li>Texto curto, de forma jornalística, convidando o público a comparecer (release)</li>
-                    <li>Breve explicação sobre como acontecerá a abordagem (posicionamento do marketing do evento)</li>
-                    <li>Tabela com as peças publicitárias e os veículos de comunicação por onde será realizada a campanha de comunicação/divulgação</li>
-                    <li>Tabela com os profissionais envolvidos na execução do plano</li>
-                </ul>
-
-                <p>A seguir, você encontra o plano de divulgação do espetáculo <em>Se Essa Rua Fosse Minha, Eu Fazia Ela Dançar</em>, realizado por Mirella no segundo capítulo da história em quadrinhos <em>Multiverso da Cultura</em>, no módulo anterior. </p>
-                <h4>!! modal pg 6</h4>
-                <p>Agora, para selecionar as opções mais adequadas de materiais e meios para a divulgação, é necessário compreender melhor os diferentes tipos de divulgação e de veículos de comunicação. Além disso, é possível contratar profissionais que auxiliarão a produção cultural nessa tarefa. Veja a seguir quais recursos podem ser utilizados, clicando sobre os <em>cards</em>.</p>
-                <h4>!! painel modais pg 10</h4>
-
-                <p>Nesse sentido, é importante ter o orçamento destinado a essa parte do projeto, pois é ela que vai delimitar as possibilidades, afinal os valores pagos em uma peça de <em>outdoor</em> (<em>banners</em> grandes colocados nas vias da cidade) e uma tiragem de cartazes são extremamente diferentes. Deve-se observar o mecanismo de fomento/financiamento, pois, em alguns casos, tem-se um valor mínimo e/ou máximo que o projeto pode destinar para comunicação/divulgação. Deve-se, ainda, prever os pagamentos, se for o caso, dos profissionais da comunicação que serão contratados. </p>
-                <div class="caixa icone importante">
-                    <p>O produtor cultural deve conhecer os profissionais, as funções e os materiais de comunicação/divulgação, para acompanhar, aprovar e validar valores, peças e campanhas de comunicação do projeto cultural. </p>
-                </div>
-
-                <h3>Entrevista com Cati Carpes</h3>
-                <p>O plano de comunicação é um elemento fundamental para que o projeto cultural possa atingir seu público-alvo, afinal “quem não se comunica, se trumbica”, como dizia Chacrinha.  </p>
-                <p>Para ajudar a compreender melhor o processo de construção do plano de comunicação e as funções dos profissionais envolvidos na comunicação do projeto cultural, a assessora de imprensa e mídias sociais Cati Carpes foi convidada a compartilhar um pouco das experiências práticas dela e a dar muitas dicas valiosíssimas.  </p>
-                <p>Então, ouça com atenção o <em>podcast</em> a seguir e, depois, poste no fórum de interação o que achou da conversa com a assessora. Clique no <em>player</em> para ouvir. </p>
-
-                <h4>!! esquema da bru pg 12</h4>
-            </div>
-
-            <div class="pagina">
-                <h2><em>Marketing</em> e cultura: dos valores à palavra e à imagem</h2>
-                <p>Quando se pensa em produtos e serviços (no caso, aqui, culturais), estabelece-se proximidade com o conceito de marca. Assim, define-se que marca é a representação simbólica na qual um produto/serviço é identificado, de maneira que o público a reconheça de imediato. Esse símbolo traz, na sua forma, qualidades que fazem com que qualquer pessoa saiba do que se trata o produto/serviços, passem uma ideia/conceito e valorizem experiências que envolvam o produto/serviço. </p>
-
-                <h4>!! anotacao, tooltip</h4>
-                <p>Não confunda o produto/serviço propriamente dito com a marca, pois no <em>marketing</em> “produtos são feitos nas fábricas, mas marcas são construídas na mente” (LANDOR <em>apud</em> SERVIÇO BRASILEIRO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS, 2019). Sendo assim, tem-se a ideia de que a marca do produto/serviço/evento passa algo, tem uma personalidade, uma visão, um relacionamento com o público, que é definido com a palavra em inglês <em>“branding”</em>.</p>
-                <p>Assim sendo, <em>branding</em> ou <em>brand management</em> é uma estratégia de gestão da marca que visa torná-la mais reconhecida pelo seu público e mais presente no mercado. A estratégia busca a admiração e o desejo pelos valores que a marca cria em torno de si mesma. Seu objetivo principal é despertar sensações e criar conexões fortes, que serão fatores relevantes para que o cliente escolha a marca no momento de decisão de compra (SERVIÇO BRASILEIRO DE APOIO ÀS MICRO E PEQUENAS EMPRESAS, 2019).</p>
-                <p>Portanto, é preciso estar atento à gestão da própria marca (no caso, produto/serviço cultural que se está produzindo), a fim de carregar alguns benefícios, como: confiança do público, presença no imaginário do consumidor, mais valor agregado e busca pela fidelização de plateia. Dessa forma, o <em>branding</em> é a visão que as pessoas têm da marca e o que a diferencia das outras. Para tanto, a produção precisa saber posicionar seu produto/serviço no mercado (aqui, cultural). Esse posicionamento é contínuo e ininterrupto, pois é um processo de levar a marca para as mentes e os corações do público. </p>
-
-                <p>As seguintes estratégias para posicionamento de marca podem ser adotadas:</p>
-                <h4>!! tool tips</h4>
-                <ul>
-                    <li>Identificar com mais exatidão seu público-alvo.</li>
-                    <li>Escrever em uma frase o que o seu produto/serviço pode proporcionar ao cliente.</li>
-                    <li>Definir o posicionamento atual de sua marca em relação a outras marcas semelhantes.</li>
-                    <li>Definir o seu diferencial em comparação a iniciativas semelhantes à sua.</li>
-                    <li>Identificar/criar um pequeno texto que responda à pergunta: o que torna sua marca especial?</li>
-                    <li>Criar um documento de posicionamento com duas ou três frases que comunicam os valores exclusivos da sua marca, ou seja, o que ela defende e quais são a visão e a missão dela.</li>
-                    <li>Definir como quer que sua marca seja reconhecida.</li>
-                </ul>
-                <p>Assim, percebe-se que o <em>branding</em> é um processo criativo e de pesquisa de mercado, pois um posicionamento bem estruturado e forte faz com que seu público-alvo saiba, confie e acredite na sua marca e, por consequência, no seu produto/serviço/evento cultural.</p>
-                <p>Veja alguns exemplos bem-sucedidos clicando nos botões a seguir.</p>
-                <div class="accordion painel-gaitinha" id="accordionExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Nike – <em>just do it</em>
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>“Nike – <em>just do it</em>”, traduzido para “Nike – apenas faça”, é um dos <em>brandings</em> mais famosos do <em>marketing</em> mundial. A empresa, que se posiciona no ramo de sapatos esportivos, investe no conceito “atitude”. Suas campanhas buscam passar para o seu público um estilo de vida ativo e atlético, com produtos de qualidade <em>premium</em> e <em>designs</em> exclusivos.</p>
-                                <figure>
-                                    <img src="" alt="Foto, com fundo branco, em primeiro plano, de homem negro sorrindo e usando uma camiseta preta com logotipo da Nike, escrito “just do it”.">
-                                    <figcaption>Figura 2 – Camiseta da Nike<br>
-                                        Fonte: Nike (c2022)</figcaption>
-                                </figure>
+    
+                    <h3>Assessoria de imprensa e <em>release</em></h3>
+                    <video src=""></video>
+    
+                    <div class="sr-only">
+                        <p>A assessoria de imprensa dos projetos culturais é realizada, geralmente, por um profissional de
+                            Comunicação Social, formado em Jornalismo ou Relações Públicas. Esse profissional é o
+                            responsável por criar uma relação entre o evento cultural e o público, por meio das diversas
+                            mídias (jornal, revista, rádio, TV, Internet, redes sociais). Uma das ferramentas mais
+                            utilizadas pelo assessor de imprensa é o release, ou seja, um material textual, acompanhado de
+                            fotos e, por vezes, vídeos. O release descreve e informa o público sobre o evento cultural. Ele
+                            deve ser escrito em linguagem jornalística, objetiva, contendo as principais informações sobre o
+                            evento, para que o meio de divulgação o transforme em uma notícia. Se o release despertar o
+                            interesse do meio de comunicação, haverá um contato com a assessoria de imprensa para a marcação
+                            de uma pauta de entrevista no rádio, na TV, em um podcast ou um canal de mídia social. O
+                            assessor de imprensa acompanha os artistas nos encontros e nas entrevistas presenciais ou
+                            remotas.</p>
+    
+                        <p>O release deve conter:</p>
+                        <ul>
+                            <li>Dados da fonte (e-mail, telefone, site etc.)</li>
+                            <li>Branding e sinopse da obra</li>
+                            <li>Informações e texto revisados</li>
+                            <li>Serviço do evento (o que é o evento, sua data e seu horário, o local a ser realizado,
+                                valores dos ingressos, faixa etária)</li>
+                            <li>Fotos enviadas em baixa qualidade e link disponibilizando-as em alta qualidade para que o
+                                veículo de imprensa possa baixá-lo (as fotos devem conter os créditos dos fotógrafos)</li>
+                        </ul>
+    
+                        <p>Algo importante de se ter em mente quando se pensa em um release é que ele é uma notícia, e não
+                            um anúncio, ou seja, um texto jornalístico, e não publicitário. Hoje em dia, com a emergência
+                            das tecnologias digitais (mídias sociais, canais de streaming), muitos veículos aceitam também
+                            os releases na forma de áudio release e vídeo release.</p>
+                    </div>
+    
+                    <h3>Pratique!</h3>
+                    <h4>!! esquema da bru pg 3</h4>
+    
+                    <h3>Mídias digitais (<em>social media</em>)</h3>
+                    <p>Agora, no momento em que você está lendo este material, provavelmente há um telefone celular na sua
+                        mão, caso esteja lendo este texto no telefone, ou no seu bolso, caso esteja lendo em um computador
+                        ou <em>tablet</em>. Pode-se perceber, no dia a dia, quanto as mídias ou tecnologias digitais (como
+                        computadores e telefones celulares) têm mudado a forma de comunicação e de acesso às informações e
+                        aos conhecimentos. </p>
+                    <p>Essas mudanças ficam bem evidentes quando se olha para a pesquisa realizada pelo Centro Regional de
+                        Estudos para o Desenvolvimento da Sociedade da Informação (NÚCLEO DE INFORMAÇÃO E COORDENAÇÃO DO
+                        PONTO BR, 2021), que mostra um grande aumento do acesso à Internet no Brasil nos últimos anos,
+                        apontando o telefone celular (o mesmo que está na sua mão ou no seu bolso) como o principal aparelho
+                        para comunicação e busca de informações, notícias e conhecimentos.</p>
+                    <p>Com esse crescimento do acesso e do uso da Internet no país, há também o crescimento de plataformas
+                        que conectam usuários em redes, como Facebook, Instagram, TikTok, WhatsApp, Telegram e outras do
+                        mesmo tipo, as quais são chamadas de redes e mídias sociais. </p>
+                    <p>Atualmente, com o <em>boom</em> das mídias digitais e das redes sociais, surge uma nova profissão, o
+                        <em>social media</em>, que é o profissional responsável pelas mídias sociais, trabalhando com
+                        análise e distribuição de <em>social ads</em>.</p>
+                    <h4>!! tooltip</h4>
+                    <p>Hoje as tarefas do profissional de <em>social media</em> são:</p>
+                    <h4>!! tooltip</h4>
+                    <ul>
+                        <li>Definir e acompanhar métricas nas diversas redes sociais.</li>
+                        <li>Acompanhar retenção de público (quanto tempo as pessoas ficam assistindo ou interagindo).</li>
+                        <li>Gerenciar e atualizar perfil de redes sociais.</li>
+                        <li>Criar conteúdo para mídias digitais e redes sociais.</li>
+                        <li>Interagir com o público, por meio de mensagens, <em>direct</em> (no Instagram) e comentários.
+                        </li>
+                        <li>Atrair tráfego para os canais que gerencia (seja de forma paga, seja de forma orgânica). Às
+                            vezes, esse profissional pode acumular as funções de assessor de imprensa e <em>social
+                                media</em>. O planejamento de postagens é essencial para quem quer fazer a divulgação do seu
+                            evento em redes sociais.</li>
+                    </ul>
+                    <p>Para cada rede social há uma maneira de ter acesso a informações. No Instagram, por exemplo, com uma
+                        conta comercial, tem-se acesso ao <b>Painel profissional</b>, no qual constam todas informações
+                        necessárias para o <em>social media</em>, inclusive ferramentas de anúncio para impulsionar
+                        publicações de forma paga. Já nos canais que integram a plataforma Google (como YouTube), você pode
+                        criar um perfil no Google AdSense (Ads), que permite receber pagamentos por anúncios inseridos nos
+                        conteúdos. Porém, nesse caso, você precisa ter algumas qualificações para poder vincular o Google
+                        Ads ao canal do YouTube. Você tem acesso a essas qualificações na parte de monetização do canal.</p>
+                    <p>Lembre-se de que cada rede social tem as próprias particularidades para <em>ads</em> (anúncios) e
+                        outras ferramentas muito úteis, por exemplo:</p>
+                    <h4>!! 5 videos :o</h4>
+    
+                    <h3>Pratique!</h3>
+                    <p>Sabe-se, então, que a comunicação de projeto é muito importante, por isso sempre se destina uma parte
+                        do orçamento do projeto para pagamentos e compras relativas ao plano de comunicação. Dessa forma,
+                        pensando que se tem um orçamento de R$ 5.000,00 para a composição de um plano hipotético de
+                        comunicação para um <em>show</em> de música no centro de uma cidade, quais itens você, produtor
+                        cultural, inseriria em seu plano de comunicação? Assinale os itens, mas cuide para não exceder o
+                        valor total do orçamento:</p>
+                    <h4>!! tabela interativa</h4>
+    
+                    <h3>Relatório de comunicação e <em>clipping</em></h3>
+                    <p>Para a finalização do projeto, é importante ter o relatório de comunicação, como registro da obra e
+                        como comprovação da publicação da divulgação. Como vimos no <em>podcast</em> com a jornalista Cati
+                        Carpes, o relatório é a soma de todo o trabalho que foi feito pela assessoria de imprensa junto à
+                        produção do evento, ou seja, as ações de divulgação do evento e, eventualmente, quando houver, das
+                        empresas patrocinadoras ou apoiadoras. </p>
+                    <p>Veja um exemplo:</p>
+                    <h4>!! tabela pg 12</h4>
+                    <figcaption>
+                        Tabela 2 – Comparativo de metas e resultados conforme cronograma<br>
+                        Fonte: Adaptada de Associação Paulista dos Amigos das Artes (2018)
+                    </figcaption>
+    
+                    <div class="accordion painel-gaitinha" id="accordionExample2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne2">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2">
+                                    Relatório de comunicação
+                                </button>
+                            </h2>
+                            <div id="collapseOne2" class="accordion-collapse collapse show" aria-labelledby="headingOne2"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>Material gráfico produzido e impresso para a divulgação do projeto, dos locais onde
+                                        ele foi publicado, divulgado ou exposto e da quantidade de visualizações, no caso de
+                                        redes sociais.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo2" aria-expanded="false" aria-controls="collapseTwo2">
+                                    Materiais audiovisuais
+                                </button>
+                            </h2>
+                            <div id="collapseTwo2" class="accordion-collapse collapse" aria-labelledby="headingTwo2"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>Inserção dos <em>links</em> nos quais é possível assistir aos conteúdos audiovisuais
+                                        produzidos para a divulgação do projeto, verificar os locais onde foram veiculados e
+                                        o número de visualizações, quando se tratar de redes sociais.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+                                    <em>Releases</em>, publicações e entrevistas na imprensa
+                                </button>
+                            </h2>
+                            <div id="collapseThree2" class="accordion-collapse collapse" aria-labelledby="headingThree2"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>Inserir <em>print</em> ou foto da publicação na imprensa (jornal físico, jornal
+                                        digital, <em>blogs</em>, redes sociais). Deve constar o nome do veículo e a data da
+                                        veiculação.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour2" aria-expanded="false" aria-controls="collapseFour2">
+                                    <em>Clipping</em>
+                                </button>
+                            </h2>
+                            <div id="collapseFour2" class="accordion-collapse collapse" aria-labelledby="headingFour2"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <p>É todo o material sobre o evento que foi publicado em meios de comunicação. Deve
+                                        conter o nome do veículo e a data de veiculação. Exemplo: <em>release</em> e fotos
+                                        em jornais físicos e em mídia eletrônica. Entrevistas em programas de rádio,
+                                        programas de televisão, <em>podcasts</em>. O assessor de comunicação faz um
+                                        compilado dessas publicações que podem ser utilizadas em portfólio do evento, do
+                                        artista ou do grupo. O <em>clipping</em> também pode servir para futuros projetos,
+                                        como comprovação da realização do evento cultural.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Itaú Cultural (IC)
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>O IC é uma organização cultural, mantida pelo banco, que fomenta e incentiva a cultura pelo Brasil. Na página oficial da organização, é possível ter acesso à visão, à missão e aos valores do IC. Destaca-se o propósito, que é “inspirar o poder criativo para a transformação das pessoas” (QUEM SOMOS, c2022).</p>
-                                <figure>
-                                    <img src="" alt="Imagem do site do IC, com fundo preto e várias pessoas vestidas de diferentes maneiras, com o braço erguido e a mão aberta, como se fossem pegar algo no alto.">
-                                    <figcaption>Figura 3 – <em>Site</em> do IC<br>
-                                        Fonte: Itaú Cultural (c2022)</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Grupo Balcão
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                            <div class="accordion-body">
-                                <p>Em grupos artísticos como o Grupo Galpão, o <em>branding</em> pode aparecer como a própria apresentação, geralmente em <em>site</em> oficial, contando a história do grupo, sua visão, seu logotipo e toda a parte de <em>design</em>.</p>
-                                <figure>
-                                    <img src="" alt="Imagem em preto e branco. Ao topo, há escrito em amarelo “Grupo Galpão”. À esquerda, há uma foto com os 12 integrantes do grupo, estando 6 sentados em caixotes e 6 em pé atrás. Na direita, há uma breve apresentação do grupo: “O Grupo Galpão é uma das companhias mais importantes do cenário teatral brasileiro, cuja origem está ligada ao teatro popular e de rua. Criado em 1982, o grupo desenvolve um teatro que alia rigor, pesquisa, busca de linguagem, com montagem de peças que possuem grande poder de comunicação com o público”.">
-                                    <figcaption>Figura 4 – Grupo Galpão<br>
-                                        Fonte: Grupo Galpão (c2021)</figcaption>
-                                </figure>
-                            </div>
-                        </div>
-                    </div>
+    
+                    <h3>Qual é o papel do produtor cultural nessa história?</h3>
+    
+                    <p>Você está chegando ao fim de mais uma parte desta jornada. Como foi sua leitura até aqui? Vá ao fórum
+                        de interação e comente o que achou deste módulo e dos anteriores e converse sobre os temas tratados
+                        aqui.</p>
+    
+                    <p>Espera-se que as informações trazidas ao longo deste quarto módulo tenham ajudado você a pensar mais
+                        tecnicamente sobre a divulgação de projetos culturais. Como já dito anteriormente, não é preciso
+                        fazer tudo sozinho, pois você vai contar com profissionais especializados para auxiliar na
+                        comunicação do projeto cultural. Mesmo assim, é fundamental que o produtor cultural construa o plano
+                        de comunicação do projeto e coordene sua aplicação.</p>
+    
+                    <p>Como disse Cati Carpes no <em>podcast</em>, a comunicação precisa estar articulada em cada passo,
+                        desde a concepção do projeto até o relatório final, seguindo um planejamento claro.</p>
+    
+                    <p>Essa atenção à comunicação do projeto é essencial para que ele não se “trumbique”, ou seja, para que
+                        se consiga atingir efetivamente o público-alvo, garantindo a sustentabilidade econômica e a
+                        possibilidade de continuidade do projeto. Assim, o que se tem a dizer chegará a mais pessoas, e os
+                        elementos da cultura que são mobilizados pelo projeto serão reconhecidos por elas. Além disso, os
+                        benefícios econômicos para a comunidade serão maiores. Em resumo: a cultura se movimenta!</p>
+    
+                    <h4>!! letra pg 14</h4>
+                    <p>Siga até o final desta jornada, “costurando”, de pedaço em pedaço, os conhecimentos sobre a prática da produção cultural. </p>
                 </div>
-                <p>Percebe-se que o posicionamento da marca, quando se fala de cultura, tem a ideia de transmitir ao público a “experiência” que o produto/serviço cultural proporciona, indo em direção ao conceito de marca. Essa parte se torna importante no sentido do plano de comunicação, pois pode-se trazer o <em>branding</em> com a planilha de divulgação e comunicação. A produção pode situar os valores, a missão e a visão, em mídias oficiais do projeto.  </p>
-
-
-                <p>Para melhor definir um <em>branding</em>, usam-se, na comunicação, as ferramentas do <em>mix</em> de <em>marketing</em> e da matriz SWOT, para melhor definir parâmetros para o plano de comunicação e divulgação. Por exemplo, quando Mirella pensa e realiza os cartazes e <em>banners</em> de divulgação do espetáculo que produz, o que ela leva em consideração nessa criação? Com certeza o <em>branding</em> para estimular seu público. Para isso, utilizam-se o <em>mix</em> de <em>marketing</em> e a matriz SWOT. Clique nos botões a seguir e veja como são utilizadas essas ferramentas.</p>
-                <h4>!! modais 100 pg 6</h4>
             </div>
 
-            <div class="pagina">
-                
-            </div>
-           
         </section>
         <!-- Paginação do print-->
         <footer class="text-center no-print container">
             <ul class="pagination">
-  
+
             </ul>
-        </footer>   
+        </footer>
     </section>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="../assets/bootstrap/bootstrap.bundle.min.js"></script>
@@ -212,7 +567,7 @@
         var custom_print_path = 'assets/css/';
         var custom_leitor_path = 'assets/css/';
     </script>    
-    -->   
+    -->
     <script src="../assets/print/print.js"></script>
     <script src="../assets/print/template.config.js"></script>
 
@@ -220,31 +575,34 @@
     <script src="../assets/interativos/esquema_bru/esquema-bru.js"></script>
     <script src="../assets/js/geral.js"></script>
 
- <!-- Versao atual do handtalk -->
+    <!-- Versao atual do handtalk -->
     <script>
-        var scriptElem=document.createElement("script");
-        scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
-        scriptElem.charset="UTF-8",
-        scriptElem.onload=function(){
-            window.ht = new HT({
-                token:"bf5b7efb148a829a126a0e0c9fd533bf",
-                align:"top",
-                videoEnabled: true,
-                ytEmbedReplace: true,           
-                mobileConfig:{align:"right",
-                                actionsAlign:"top",
-                                customButtonStyle:{
-                                    borderRadius:"6px",
-                                    size:"38px",
-                                    horizontalMargin:"13px",
-                                    bottomMargin:"140px",
-                                    rightMargin:"40px"}
-                                }
-                });        
-            $('.ht-skip').attr("aria-hidden","true")
-        },
-    document.body.appendChild(scriptElem);
-    
+        var scriptElem = document.createElement("script");
+        scriptElem.src = "https://plugin.handtalk.me/web/latest/handtalk.min.js",
+            scriptElem.charset = "UTF-8",
+            scriptElem.onload = function () {
+                window.ht = new HT({
+                    token: "bf5b7efb148a829a126a0e0c9fd533bf",
+                    align: "top",
+                    videoEnabled: true,
+                    ytEmbedReplace: true,
+                    mobileConfig: {
+                        align: "right",
+                        actionsAlign: "top",
+                        customButtonStyle: {
+                            borderRadius: "6px",
+                            size: "38px",
+                            horizontalMargin: "13px",
+                            bottomMargin: "140px",
+                            rightMargin: "40px"
+                        }
+                    }
+                });
+                $('.ht-skip').attr("aria-hidden", "true")
+            },
+            document.body.appendChild(scriptElem);
+
     </script>
 </body>
+
 </html>
