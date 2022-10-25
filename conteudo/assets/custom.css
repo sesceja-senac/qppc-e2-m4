@@ -1,5 +1,7 @@
 figcaption {
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .titulo-conteudo {
     position: absolute;
@@ -11,7 +13,7 @@ figcaption {
 .bloco-1-1 {
     background-image: url('01/background.png');
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 140px;
 }
 h3 {
     font-size: 26px;
@@ -32,9 +34,17 @@ h3 {
 .caixa-tv p {
     font-weight: 600;
 }
-
+.caixa-tv h4 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.divisoria-1-1 {
+    margin-top: -160px;
+    width: 100%;
+    margin-bottom: -160px;
+}
 .bloco-1-2 {
-    padding-top: 80px;
+    padding-top: 140px;
     padding-bottom: 80px;
 }
 .bloco-1-2 h3 {
@@ -48,4 +58,290 @@ h3 {
     margin: 40px auto;
     font-weight: 600;
     padding-left: 120px;
+}
+.bloco-1-3 {
+    background-color: #2d5054;
+    padding: 80px 0;
+    color: white;
+}
+.bloco-1-3 .container {
+    background-color: transparent;
+}
+
+.bloco-1-4 {
+    background-image: url('../assets/01/background_2.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+.bloco-1-4 .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bloco-1-5 {
+    background-color: #2d5054;
+    
+}
+.bloco-1-5 .container {
+    color: white;
+    background-color: transparent;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bloco-2-1 {
+    padding-top: 0px;
+    background-image: url('02/background.png');
+    background-attachment: fixed;
+    background-position: center;
+}
+.bloco-2-1 .col-lg-5 {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin-left: 45px;
+}
+.bloco-2-1 .col-lg-5 h2 {
+    margin-bottom: 35px;
+}
+.anotacao {
+    height: 500px;
+    width: 766px;
+    display: block;
+    margin: 40px auto;
+    background-image: url('02/post_it.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 75px;
+}
+.bloco-2-1 .col-lg-5 p {
+    margin-bottom: 45px;
+}
+.bloco-2-2 {
+    background-color: #2d5054;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+.bloco-2-2 .container {
+    background-color: transparent;
+}
+.bloco-2-2 .accordion-body {
+    background-color: rgba(230, 230, 230, .2);
+}
+.bloco-2-2 .accordion-item {
+    background-color: transparent;
+}
+.bloco-2-3 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-image: url('02/background.png');
+}
+.bloco-2-3 .container {
+    background-color: transparent;
+}
+
+.accordion-item figure img {
+    border-radius: 25px;
+}
+.painel-gaitinha .accordion-button {
+    font-family: unset;
+}
+.divisoria {
+    width: 100%;
+    margin-top: -80px;
+    margin-bottom: -80px;
+}
+
+.bloco-3-1, .bloco-3-2, .bloco-3-3, .bloco-3-4, .bloco-3-5 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-image: url('03/background_1.png');
+}
+.bloco-3-6 {
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-image: url('03/background_2.png');
+}
+.bloco-3-1 .container, .bloco-3-2 .container, .bloco-3-3 .container, .bloco-3-4 .container, .bloco-3-5 .container, .bloco-3-6 .container {
+    background-color: transparent;
+}
+.pg4 {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-image: url('04/background.png');
+    background-position: center;
+    background-attachment: fixed;
+}
+.pg4 .container {
+    background-color: #ffffff90;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+.pg4 h2 {
+    margin-bottom: 40px;
+}
+footer {
+    position: absolute;
+    width: 100%;
+    margin-top: -90px;
+}
+footer .pagination {
+    justify-content: center;
+    width: 100%;
+}
+.btn-modal-1 {
+    width: 301px;
+    height: 173px;
+    display: block;
+    margin: 20px auto;
+    background-image: url('01/bt_1.png');
+    background-color: transparent;
+    border: none;
+}
+.btn-modal-1:hover {
+    background-image: url('01/bt_1_hover.png');
+}
+.bloco-1-4 .btn-container::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 928px;
+    background-color: white;
+    z-index: 1;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+.btn-container button {
+    width: 516px;
+    height: 542px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    z-index: 10;
+}
+.btn-modal-2 {
+    background-image: url('01/bt2_1.png');
+}
+.btn-modal-3 {
+    background-image: url('01/bt2_2.png');
+}
+.btn-modal-4 {
+    background-image: url('01/bt2_3.png');
+}
+.btn-modal-2:hover {
+    background-image: url('01/bt2_1_hover.png');
+}
+.btn-modal-3:hover {
+    background-image: url('01/bt2_2_hover.png');
+}
+.btn-modal-4:hover {
+    background-image: url('01/bt2_3_hover.png');
+}
+
+.caixa {
+    background-color: #498189;
+    color: white;
+    border-radius: 20px;
+    margin: 40px auto;
+}
+.caixa.icone {
+    color: white;
+}
+.icone::before {
+    display: block;
+    content: "";
+    width: 83px;
+    height: 115px;
+    background-color: transparent;
+    position: absolute;
+    top: -20px;
+    left: -30px;
+    background-repeat: no-repeat;
+}
+.caixa.icone.seliga::before {
+    background-image: url('01/ico_seliga-12.png');
+    width: 138px;
+    height: 187px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -85px;
+}
+.icone.atencao::before {
+    background-image: url('01/ico_atencao.png');
+    top: 50%;
+    transform: translateY(-50%);
+    left: -85px;
+    width: 155px;
+    height: 193px;
+}
+.bloco-1-5 h3 {
+    color: white;
+}
+.lista-custom {
+    list-style-image: none;
+    list-style: none;
+    padding-top: 40px;
+    padding-left: 100px;
+}
+.lista-custom li {
+    color: #2d5054;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.lista-custom li::before {
+    content: '';
+    background-image: url('01/bullet.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: -60px;
+    align-self: auto;
+    margin-right: 10px;
+}
+.bloco-1-6 {
+    padding-top: 60px;
+    padding-bottom: 120px;
+    min-height: 600px;
+}
+.bloco-2-1 .container-fluid {
+    padding: 0;
+}
+.btn-container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-container-2 button {
+    background-color: transparent;
+    border: none;
+    background-repeat: no-repeat;
+}
+.btn-painel2-1 {
+    width: 276px;
+    height: 244px;
+    background-image: url('02/bt_1.png');
+}
+.btn-painel2-1:hover {
+    background-image: url('02/bt_1_hover.png');
+}
+.btn-painel2-2 {
+    width: 246px;
+    height: 244px;
+    background-image: url('02/bt_2.png');
+}
+.btn-painel2-2:hover {
+    background-image: url('02/bt_2_hover.png');
 }
