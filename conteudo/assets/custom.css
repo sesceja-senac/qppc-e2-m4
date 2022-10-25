@@ -79,7 +79,7 @@ h3 {
 }
 .bloco-1-5 {
     background-color: #2d5054;
-    
+    position: relative;   
 }
 .bloco-1-5 .container {
     color: white;
@@ -157,11 +157,13 @@ h3 {
     padding-top: 80px;
     padding-bottom: 60px;
     background-image: url('03/background_1.png');
+    background-attachment: fixed;
 }
 .bloco-3-6 {
     padding-top: 80px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
     background-image: url('03/background_2.png');
+    background-attachment: fixed;
 }
 .bloco-3-1 .container, .bloco-3-2 .container, .bloco-3-3 .container, .bloco-3-4 .container, .bloco-3-5 .container, .bloco-3-6 .container {
     background-color: transparent;
@@ -344,4 +346,82 @@ footer .pagination {
 }
 .btn-painel2-2:hover {
     background-image: url('02/bt_2_hover.png');
+}
+.rellax {
+    position: absolute;
+}
+.rellax-1 {
+    top: 500px;
+    left: 160px;
+}
+.rellax-2 {
+    right: 160px;
+    top: 1000px;
+}
+.rellax-3 {
+    top: 1600px;
+    width: 400px;
+}
+.rellax-4 {
+    right: 0;
+    width: 450px;
+    top: 4500px;
+}
+.rellax-5 {
+    left: 100px;
+    bottom: -1000px;
+}
+.sesc-audio-player {
+    margin: 60px auto;
+    width: 50%;
+    border-radius: 15px;
+}
+#modal-2 .modal-header, #modal-2 .modal-body, #modal-2 .modal-footer {
+    display: none;
+}
+#modal-2 .modal-content {
+    background-image: url('01/bt2_1_modal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 839px;
+    background-color: transparent;
+    margin: auto;
+}
+#modal-3 .modal-header, #modal-3 .modal-body, #modal-3 .modal-footer {
+    display: none;
+}
+#modal-3 .modal-content {
+    background-image: url('01/bt2_2_modal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 839px;
+    background-color: transparent;
+    margin: auto;
+}
+#modal-4 .modal-header, #modal-4 .modal-body, #modal-4 .modal-footer {
+    display: none;
+}
+#modal-4 .modal-content {
+    background-image: url('01/bt2_3_modal.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1000px;
+    width: 839px;
+    background-color: transparent;
+    margin: auto;
+}
+.bloco-2-1 .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+video {
+    width: 470px;
+    background-color: #333;
+    display: block;
+    margin: 20px auto;
 }
