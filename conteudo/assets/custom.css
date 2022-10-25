@@ -154,8 +154,8 @@ h3 {
 }
 
 .bloco-3-1, .bloco-3-2, .bloco-3-3, .bloco-3-4, .bloco-3-5 {
-    padding-top: 80px;
-    padding-bottom: 60px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     background-image: url('03/background_1.png');
     background-attachment: fixed;
 }
@@ -368,7 +368,7 @@ footer .pagination {
     top: 4500px;
 }
 .rellax-5 {
-    left: 100px;
+    left: 1%;
     bottom: -1000px;
 }
 .sesc-audio-player {
@@ -388,6 +388,7 @@ footer .pagination {
     width: 839px;
     background-color: transparent;
     margin: auto;
+    border: none;
 }
 #modal-3 .modal-header, #modal-3 .modal-body, #modal-3 .modal-footer {
     display: none;
@@ -401,6 +402,7 @@ footer .pagination {
     width: 839px;
     background-color: transparent;
     margin: auto;
+    border: none;
 }
 #modal-4 .modal-header, #modal-4 .modal-body, #modal-4 .modal-footer {
     display: none;
@@ -414,6 +416,7 @@ footer .pagination {
     width: 839px;
     background-color: transparent;
     margin: auto;
+    border: none;
 }
 .bloco-2-1 .row {
     margin-right: 0;
@@ -424,4 +427,100 @@ video {
     background-color: #333;
     display: block;
     margin: 20px auto;
+}
+.painel-gaitinha {
+    margin: 40px auto;
+}
+table {
+    margin-top: 30px;
+}
+.table-1 {
+    margin: 20px auto;
+}
+
+/* CARDS */
+.cartaMemoria {
+    height: 229px;
+    width: 339px;
+    margin: 5px 20px;
+    border-radius: 35px;
+    -webkit-perspective: 600px;
+    perspective: 600px;
+    /* position: relative;
+	font-size: 1em; */
+    cursor: pointer;
+}
+
+.ladoFrente {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    height: inherit;
+    text-align: center;
+    box-shadow: 0 0px 13px rgba(0, 0, 0, 0.3);
+    -webkit-transform: rotateX(0) rotateY(0);
+    transform: rotateX(0) rotateY(0);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 35px;
+}
+
+.ladoTras {
+    float: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 800;
+    width: 100%;
+    height: inherit;
+    -webkit-transform: rotateY(-179deg);
+    transform: rotateY(-179deg);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 35px;
+}
+
+.cartaMemoria.flip .ladoFrente {
+    z-index: 900;
+    background: #333;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotateY(179deg);
+    transform: rotateY(179deg);
+}
+
+.cartaMemoria.flip .ladoTras {
+    z-index: 1000;
+    -webkit-transform: rotateX(0) rotateY(0);
+    transform: rotateX(0) rotateY(0);
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.cartaMemoria:not(.flip)>div.ladoFrente:hover {
+    transform: rotate3d(0, 45, 0, 15deg);
+    box-shadow: -8px 10px 27px rgb(0 0 0 / 40%);
+}
+
+.cartaMemoria.flip>div.ladoTras:hover {
+    transform: rotate3d(0, 45, 0, 10deg);
+    box-shadow: -8px 10px 27px rgba(0, 0, 0, 0.2);
+}
+
+.row-carta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
 }
