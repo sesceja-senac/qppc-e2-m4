@@ -50,9 +50,9 @@
         </header>
         <section class="paginas">
             <div class="pagina">
-                <img src="assets/01/tv_1.png" data-rellax-speed="2" class="rellax rellax-1">
-                <img src="assets/01/tv_2.png" data-rellax-speed="2" class="rellax rellax-2">
-                <img src="assets/01/elemento_lateral.png" data-rellax-speed="3" class="rellax rellax-3">
+                <img src="assets/01/tv_1.png" data-rellax-speed="2" class="rellax rellax-1 no-print">
+                <img src="assets/01/tv_2.png" data-rellax-speed="2" class="rellax rellax-2 no-print">
+                <img src="assets/01/elemento_lateral.png" data-rellax-speed="3" class="rellax rellax-3 no-print">
                 <div class="bloco-1-1">
                     <div class="container">
                         <h3>Introdução</h3>
@@ -135,8 +135,8 @@
                         <p>Então, caro estudante, prepare-se para começar as “costuras”!</p>
                     </div>
                 </div>
-                <img src="assets/01/divisoria.png" alt="" class="divisoria-1-1">
-                <img src="assets/01/elemento_lateral_2.png" data-rellax-speed="3" class="rellax rellax-4">
+                <img src="assets/01/divisoria.png" alt="" class="divisoria-1-1 no-print">
+                <img src="assets/01/elemento_lateral_2.png" data-rellax-speed="3" class="rellax rellax-4 no-print">
                 <div class="bloco-1-2">
                     <div class="container">
                         <h3>O que é plano de comunicação: conceito, modelos e estruturas</h3>
@@ -202,7 +202,9 @@
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title">Plano de divulgação de projeto cultural</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -356,9 +358,10 @@
                 <div class="modal fade" id="modal-2" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div class="modal-header">
                                 <h5 class="modal-title">Tipos de divulgação</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -390,9 +393,10 @@
                 <div class="modal fade" id="modal-3" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
                     <div class="modal-dialog modal-xl" role="document">
                         <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div class="modal-header">
                                 <h5 class="modal-title">Tipos de veículo de comunicação</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -424,9 +428,10 @@
                 <div class="modal fade" id="modal-4" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
                     <div class="modal-dialog modal-xl" role="document">
                         <div class="modal-content">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             <div class="modal-header">
                                 <h5 class="modal-title">Profissionais da comunicação para projetos culturais</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -488,7 +493,7 @@
                     </div>
                 </div>
                 <div class="bloco-1-5">
-                    <img src="assets/01/podcast.png" data-rellax-speed="3" class="rellax rellax-5">
+                    <img src="assets/01/podcast.png" data-rellax-speed="3" class="rellax rellax-5 no-print">
                     <div class="container">
                         <h3>Entrevista com Cati Carpes</h3>
                         <p>O plano de comunicação é um elemento fundamental para que o projeto cultural possa atingir
@@ -504,6 +509,7 @@
                         <p>Então, ouça com atenção o <em>podcast</em> a seguir e, depois, poste no fórum de interação o
                             que
                             achou da conversa com a assessora. Clique no <em>player</em> para ouvir. </p>
+                            <!--
                             <div class="sesc-audio-player no-print">
                                 <audio>
                                     <source src="assets/01/podcast.mp3" type="audio/mpeg">
@@ -519,13 +525,195 @@
                                         <input type="range" value="0" max="100" step="any">
                                     </div>
                                 </div>
-        
+                            </div>
+                            -->
+
+                            <div class="podcast-container no-print">
+                                <div class="sesc-audio-player no-print">
+                                    <audio>
+                                        <source src="assets/01/podcast.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="row">
+                                        <div class="botoes">
+                                            <button title="Tocar" class="btn-play btn-player"></button>
+                                            <button title="Pause" class="btn-pause btn-player"></button>
+                                            <button title="Transcrição" data-bs-toggle="modal" data-bs-target="#modal-transcricao-audio" class="btn-transcricao btn-player"></button>
+                                            <div class="timestamp">00:00/00:00</div>
+                                        </div>
+                                        <div class="barra">
+                                            <input type="range" value="0" max="100" step="any">
+                                        </div>
+                                    </div>
+            
+                                </div>
+                            </div>
+                            <div class="modal fade" id="modal-transcricao-audio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content no-print">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Direitos Autorais</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Oi, pessoal! Boa tarde! </p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Conta aqui para os nossos alunos, Cati, o que tu faz. Fala um pouco da tua experiência para a gente. </p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Então, meu nome é Cati Carpes. Eu sou jornalista, tenho uma agência de comunicação, uma assessoria de comunicação, com meu esposo, que é <i>designer</i> gráfico, e que se chama Refazenda Comunicação. </p>
+                                            <p>A Refazenda surgiu para contextualizar, ela surgiu já com mais de dez anos de experiência em assessoria de imprensa e produção de conteúdo para digital. E naquela troca de sair de uma empresa, assumir um cargo de coordenação, pandemia chegando e... por que que a gente não une o que cada um sabe fazer? Criamos a Refazenda e estamos aí já há mais de dois anos. </p>
+                                            <p>Eu venho de assessoria de imprensa, de estar ali do outro lado, mandando o <i>release</i> para o jornalista. Eu achava sempre que comunicação deveria ser um pouco mais próxima e mais aberta. Essa sempre foi a minha visão mais próxima, no sentido de tanto o assessor de imprensa, ele estar presente em todas as etapas do projeto, porque o que acontece muito dentro de uma assessoria é o projeto simplesmente chegar fechado para uma divulgação. </p>
+                                            <p>Então dá uma sensação de produto que a gente está vendendo algo que não sabe muito bem o que é. E eu sempre tive isso, assim, como não gosto muito do modelo como isso é feito. Então, com a Refazenda, o que a gente já assumiu de produção cultural... ela foi uma comunicação muito mais integrada. Integrada no sentido desde estar ali na primeira reunião da organização do projeto, entendeu? </p>
+                                            <p>Então saber todas as partes do projeto e, principalmente, de um projeto cultural dá uma diferença muito grande no resultado que é entregue. Isso é uma coisa que eu percebo. Então fazer a comunicação, saber tudo o que está acontecendo dentro de um projeto, saber todos os passos, saber o que vai vir, o que deu de errado e ser ouvida também. Acho que a comunicação não pode ser vista só como um número, sabe? Lá na frente, na entrega do relatório... “Quantos tiveram?”. Eu acho que sempre prezei por isso. </p>
+                                            <p>E, com a Refazenda, eu prezo muito que a comunicação tem que existir, principalmente entre o cliente e a assessoria. É ir além um pouco do <i>release</i> ou do “vamos simplesmente colocar ali nas redes sociais”. Eu acho que ela tem que estar sempre junto na criação de um projeto.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Cati, muito legal isso que tu falou. Passou por vários pontos que eu acho que são bem interessantes de a gente retomar. Mas, se a gente pudesse voltar lá no início da tua fala, que tu traz da tua experiência com assessoria... será que tu poderia dar uma desdobrada nisso para a gente? O que é, afinal de contas, fazer assessoria? E depois, talvez, a gente possa entrar mais na coisa de como isso é no projeto cultural. Mas é só dar um panorama geral de como é a tua experiência, como tu vê isso mais amplamente.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Claro, claro. Bom, a assessoria de imprensa é fazer com que a gente crie uma notícia a partir de um fato ou de uma ação ou um evento que aquele nosso cliente ou assessorado, ou mesmo o projeto que está sendo criado... a gente consiga transformar em notícia. </p>
+                                            <p>É sempre muito bom deixar bem explicada a diferença de assessoria de imprensa para a publicidade e propaganda. Então a assessoria de imprensa é tu conseguir entrar em um veículo de comunicação sem que tenha havido nenhum investimento financeiro para aquilo. </p>
+                                            <p>Então o trabalho do assessor de imprensa é localizar ou buscar um espaço, seja em um jornal, em um rádio ou em um programa de TV, que atenda o público, que aquela ação que o cliente quer passar atinja aquele público. Então, dentro da assessoria, a gente trabalha muito com a pauta e com o <i>release</i>. A gente tem um fato. A gente tem uma pauta e a gente vai tentar transformar ela em algo que instigue um jornalista. </p>
+                                            <p>A assessoria de imprensa sempre trabalha com jornalistas. Hoje em dia se vai muito também para o caminho de influenciadores. Eu estou falando isso bem pessoal, porque tem teóricos que vão para um lado, tem outros que vão para o outro. Mas eu ainda vejo influenciadores digitais dentro do digital, e a assessoria de imprensa eu ainda vejo um pouco mais da forma tradicional de jornalista. Jornalista e formador de opinião. </p>
+                                            <p>Então chegar a esse público... como é que tu vai chegar àquele programa de rádio, àquela coluna do jornal que atende o público que tu quer chegar? Tu vai chegar para a assessoria de imprensa. Então aí entra o assessor. </p>
+                                            <p>A gente sempre diz que a maior riqueza dos assessores é o <i>mailing</i> dele, são os contatos que ele estabelece. Então os contatos do assessor de imprensa ele vai levar por toda a carreira dele, porque isso do ligar, do se relacionar, do falar “eu tenho uma pauta aqui que se encaixa perfeita no teu espaço, eu já deixei ela pronta para ti”, isso é um relacionamento e isso é um trabalho de assessoria de imprensa. </p>
+                                            <p>Então um assessor de imprensa conhece os veículos. Ele sabe em quais veículos ele vai conseguir atingir cada ação do cliente ou do assessorado. E os <i>releases</i> são, na verdade, os textos. São os textos onde a gente vai colocar todas as informações necessárias para aquele veículo. </p>
+                                            <p>Então a gente vai ter um título que chame a atenção. A gente vai ter uma linha de apoio, que vai embaixo do título, que vai complementar o título. No título, na linha de apoio, o jornalista tem que ver aquilo e já “opa, me interessei por essa ação que vai ter”. E aí a gente vai colocando todas as informações, a gente já vai colocando o nome de alguém.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Tem uma coisa que eu acho superlegal do que tu falou, que é a relação com o público. Em que veículo eu vou encontrar esse público que interessa atingir com essa notícia? Como funciona isso para ti? A produção do projeto, por exemplo, vai te falar mais ou menos qual é o público-alvo? Tu vai participar dessa definição do público-alvo? Em um processo ideal, como seria para ti?</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Em um processo ideal, para mim, eu participaria da criação junto. Nos projetos com foco cultural e que para mim foram projetos ótimos de trabalhar, aquilo que tu olha e depois pensa “que demais”, foram projetos onde a Refazenda já estava inserida desde o início, desde a definição do projeto. Então dá uma segurança maior. A gente vai podendo analisar bem os públicos diretos ou indiretos, mas isso é um cenário ideal. Então, na verdade, muitas vezes já vem pronto, já vem pronta essa ação. A gente quer com tal público. </p>
+                                            <p>Mas eu acho que é trabalho do assessor estar sempre pesquisando. Tem um exemplo que... por exemplo, sobre mama. E mama foi um cliente que eu trabalhei por muito tempo. Instituto do Câncer de Mama do Rio Grande do Sul. Então, quais eram os públicos-alvo? Será que os públicos eram só as mulheres portadoras ou que já foram curadas da doença? Será que o público também não seriam os familiares dessas mulheres? Será que os públicos não seriam as amigas dessas mulheres? Os filhos dessas mulheres? </p>
+                                            <p>Então tu vai vendo qual é o público. O direto? E a partir dali, pensando: “mas esse meu público é infantil, então como eu vou chegar ao público infantil?”. Vai ser através dos responsáveis e dos cuidadores? Vai ser através da escola? ?ai ser através daquele especial infantil que tem dentro de tal jornal? Então esse estudo a gente sempre vai fazendo. É um trabalho do assessor. </p>
+                                            <p>Tanto o <i>mailing</i>, sempre atualizando o <i>mailing</i>, o assessor tem que estar sempre atualizado. Ele tem que estar sempre lendo o jornal, tem que saber quais são os programas de rádio que tem, tem que estar por dentro. Penso que é isso. E pensar sempre qual é o público direto e as outras formas também de se chegar a esse público, porque, às vezes, é uma adolescente, então talvez tu precise chegar aos pais também ou aos cuidadores. Então acho que é sempre importante pensar o todo.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Sim, pelo que eu estou entendendo aqui, vê se faz sentido o que eu estou pensando. Tu parte de um público-alvo, de um público que o projeto quer atingir ou que a ação quer atingir. E tu, como assessora de imprensa, vai olhar para esse público e pensar: “que veículos atingem esse público? Que colunas do jornal esse público lê? Que espaços esse público costuma acessar?”. E tu vai alterar esse <i>release</i>, adaptar esse <i>release</i> para cada um desses espaços e tentar convencer a pessoa, o jornalista responsável por esse espaço, por escrever para esse espaço, a publicar aquilo como notícia naquele espaço, dando visibilidade para o projeto que tu quer divulgar. Isso é mais ou menos uma formulação que faz sentido?</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>É uma formulação que faz sentido. Na verdade, é bem isso. É convencer, porque a assessoria de imprensa ela é convencer, porque tu tem que emplacar sem fazer, sem atrelar ao comercial de veículo nenhum. Então tem que ir na lábia, tem que conversar muito educadamente. Tem que ter todos os trejeitos. Tem que ser extremamente educado com o jornalista. Tem que entender quando ele fala: “não, não estou podendo falar agora, estou em uma reunião”, porque a gente ouve bastante coisa também. </p>
+                                            <p>Tem que entender que não vai se chegar direto no WhatsApp de um jornalista, se tu nunca falou com ele, não vai falar “toma aqui o meu <i>release</i>”. Tem que ter muito jeito, muito bom senso, e entender que é estabelecer uma relação. </p>
+                                            <p>Acho que é isso, porque é um convencimento. Tu fazer com que o jornalista utilize o espaço dele para publicar aquilo que tu passou pelo <i>release</i> é um convencimento. Tem que convencer ele de que aquela pauta é importante para o espaço dele, porque o público que lê vai ficar interessado. Então tem que estar muito afiado com o teu <i>release</i>. Tem que acreditar naquele teu material, porque o jornalista pode te fazer algumas perguntas. “Por que eu vou botar dez linhas aqui do meu espaço para falar sobre isso?”. Então tu tem que saber qual é o espaço dele, saber que na semana passada ele deu um evento que era quase para o mesmo público que o teu. Então estar atualizado e estar alinhado com aquele jornalista que tu está procurando também, até pra não quebrar a cara, não chegar e o cara falar: “não, mas isso aqui não tem nada a ver com o meu espaço”. Aí tu fica: “é, realmente”. </p>
+                                            <p>Mas é entender os jornais, entender bem o que está tentando se fazer como notícia e meter a cara... usar os melhores argumentos de convencimento e dizer que ele precisa botar aquela matéria.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>E isso é muito legal, porque tu falou isso um pouco antes, no começo. É convencimento, não é anúncio. Isso é muito legal e é muito importante para a gente também saber isso e entender isso, porque nos dá uma outra dimensão de qual é o papel dessa figura, que é uma figura com a qual o produtor cultural pode contar no desenvolvimento do projeto, e, como tu fala, desde o começo, desde o momento de começar esse projeto.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Sabe que teve um projeto que a gente desenvolveu de cultura, que era nas cinco maiores regiões do estado. Era Passo Fundo, Santa Maria, Pelotas, Porto Alegre. Não vou lembrar a última. E desde o início do projeto eu já estava em contato com os produtores de cada região, então já procurando espaços, já dizendo assim: “tem algum jornal de bairro ou algum jornal que eu não ache dentro dos grandes veículos que pode funcionar?”. “Tem. Tem um jornal semanal de um grupo cultural”. Então tem que ir atrás, o assessor tem que se movimentar, ele tem que entender que ele é um braço da comunicação, não só no resultado. </p>
+                                            <p>Mas eu acho que quando envolve um projeto, a comunicação tem que ser um braço para o projeto andar, entende? Então não dá para ficar só: “eu vi que Santa Maria tem o Diário de Santa Maria. Ali tem o pioneiro”. Não, mas espera aí. Tem comunidade ou movimento de bairro? Vamos lá atrás. Vamos falar com essas pessoas. </p>
+                                            <p>Se é um projeto que o público-alvo são jovens periféricos, então espera aí. Vamos entrar, sabe? Vamos ir um pouco além do jornal clássico. Eu acho que o assessor tem que estar metido, sim.</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Gostaria de saber de ti como é esse relacionamento entre assessoria de imprensa e produção, porque o nosso curso aqui é uma qualificação profissional de produção cultural. Ou seja, a gente trabalha com projetos culturais, eventos, mas desde o olhar da produção. E a gente sabe que, nesse momento, de criação de material, a gente está conversando com o nosso aluno sobre comunicação, e existe essa comunicação entre o proponente, o produtor cultural e a assessoria de imprensa. Como é que, na tua visão, esse diálogo, essa comunicação acontece ou deveria acontecer?</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu acho que ela deveria acontecer sempre da forma mais transparente possível. Acho que, dentro do projeto, é bem isso, a comunicação tem que ser um braço da parte da produção cultural. Ela tem que servir para apoiar. Ela tem que trazer novas ideias, ela tem que falar: “estava pesquisando aqui com a fulana lá de Pelotas e ela me disse que tem um cara que é demais e que pode falar sobre tal assunto. Posso te mandar esse contato?”. </p>
+                                            <p>Então eu acho sempre que a comunicação tem que andar junto, e dentro de um projeto é fundamental que ela ande junto, porque a comunicação pode alimentar muito a produção cultural. Ela pode trazer informações. Ela pode estar em uma conversa, digamos, vendendo uma ação, conversando com a jornalista. E a jornalista fala: “tu sabe que, sobre esse teu projeto, eu pensei tal casa, pensei em tal lugar, pensei tal coisa”. Então tu tem que ter essa via aberta. </p>
+                                            <p>Eu acredito muito que a comunicação tem que estar ali, afiadíssima. Tem que estar participando dos eventos que produz. Eu acho também que isso é o básico, tem que estar em todas as etapas, tem que estar ali vendo. “Que legal! Esse evento está com tantas pessoas. Quantos inscritos já têm no evento? Então vamos fazer uma força, vamos procurar mais gente”. Eu não sei. Eu sempre tive essa visão de que a comunicação tem que ir além do “eu vou ali falar com o jornalista”. Ela tem que ser um braço, até para entender como o processo interno do projeto vai se dar.</p>
+                                            <p>Eu lembro que teve um dos projetos que a gente fez que tinha muita gente aprovando. Era um conselho curador muito extenso. Então, quando a gente está dentro de um projeto com mais de 20 pessoas aprovando, algo assim, começa a vir muito ruído. É muito difícil a gente achar uma unidade nisso. Então a gente pensou no <i>drive</i>. Um processo de aprovação, que a gente criou um processo no <i>drive</i> para que todo mundo pudesse ter acesso, para que quem aprovasse os comentários... eu sei que foi algo que nos facilitou a vida. Facilitou a vida inclusive na questão de diminuir os processos de tantas reuniões para a gente aprovar, entendeu? </p>
+                                            <p>Então eu acho que a comunicação não pode ser na entrega, a comunicação tem que estar presente... entendendo que, naquela reunião, tiveram algumas coisas que deveriam ter sido conversadas e não foram. Vamos começar a montar a pauta de reunião, vamos começar a bater tal coisa”. </p>
+                                            <p>Eu vejo que a comunicação precisa estar inserida. Eu acho que o assessor tem muito o que enriquecer no trabalho da produção cultural, mas eu não vejo isso acontecendo muito, sendo bem sincera. Eu vejo mais o assessor chegando no final, sabe? Não sei se o produtor não coloca o assessor desde o início. Não sei se o assessor não se disponibiliza nessa relação, mas, por experiência, eu vejo que a gente conseguiu ter ótimos resultados, e são pessoas que a gente continua fazendo projetos culturais juntas.</p>
+                                            <p>Então a gente conseguiu estabelecer um processo de produção. E a gente vê que existe uma outra relação de confiança entre a Refazenda e esses produtores. Então eu acho que, quando o assessor está mais presente, ele pode também, inclusive, auxiliar nas decisões, auxiliar nas opiniões, auxiliar em processos que seriam mais internos. Mas eu acredito muito que o projeto ganha muito quando a comunicação está presente desde o início e ela vai além daquela entrega do “clássico relatório” que a gente fala. “Tivemos cinco publicações”. </p>
+                                            <p>Eu acho que é importante, claro que é importante. A gente sabe que, ainda mais em projeto, a gente tem que prestar contas e é importante. Mas eu acho que a comunicação já tem que estar antes. O trabalho não pode ser só ali no “estamos com o <i>release</i> pronto e vamos divulgar”. Eu acho que tem que ser um trabalho em conjunto com a produção.</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Que legal, Cati. E pelo que tu está falando, tem esse olhar que é da comunicação com os veículos das mídias. Tem essa comunicação interna também entre os participantes do projeto, mas também tem essa comunicação com o cliente, que, hoje em dia, inclusive nas mídias sociais, Instagram, ficou bem mais direto, de <i>direct</i>, de comentários. </p>
+                                            <p>Como é essa função dessa comunicação direta com o público? No caso de projetos culturais, aquele público-alvo do projeto. Um espetáculo de dança tem seu público definindo e tem esse lugar de se comunicar com esse público diretamente. Como é que funciona esse lugar, meio que um SAC? Não é bem...</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>É, eu ia dizer. Na verdade, a gente usa como manual do SAC ou dentro do digital, porque é um SAC. A gente tem as rondas, tem o tempo estabelecido para ler e responder, mas isso também, o SAC, para ele acontecer, também vai precisar que seja estabelecida uma relação com o cliente ou assessorado, até para se estabelecer o que vai ser respondido. </p>
+                                            <p>Dentro das redes, a gente entra em uma coisa que é muito importante, que, para chegar ao SAC nas redes, a gente tem que ter estabelecida primeiro a persona, como que aquele perfil ou aquela marca vai responder nas redes sociais. Então qual é o perfil que ela vai ter para conversar com o público-alvo dela? Mas isso é essencial. Tem que ter o retorno, tu não pode deixar uma pessoa que está ali interessada em um projeto teu, falando “quero saber mais sobre o projeto”, e daí daqui três tu vai... Três dias na internet a gente sabe que é uma eternidade para quem mandou aquilo ali... </p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Tu fala da persona... é que nem a Magazine Luiza que responde de um jeito mais como se fosse uma amiga tua falando contigo?</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Quem fala é a Magalu.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>A persona... a gente entra em um lúdico para criar. Quando eu digo criar, é criar mesmo. A gente vai apresentar isso para o cliente, uma persona com uma foto, seja de uma atriz, um ator, ou uma modelo, alguém que sustente aquela imagem da persona. </p>
+                                            <p>A gente cria a persona com base no público que a gente quer chegar, junto com o público que a gente já tem, entendeu? Então a gente imagina como é o público que eu já tenho agora. Não é imagina, a gente vai estudar. A gente vai pegar com o cliente quem já são os clientes dele. Imagina... não é algo de clarividência. A gente vai pesquisar quem são os públicos dos concorrentes para traçar um perfil. </p>
+                                            <p>Então, na verdade, a persona seria uma mistura do nosso público que a gente já tem com o público que a gente quer atingir. E isso a gente vai transformar em uma pessoa só. Então essa pessoa vai ter, dentro do <i>marketing</i>, dentro da comunicação, essa pessoa vai ter um nome, ela vai ter uma idade, ela vai ter um perfil. Se ela é casada, onde ela mora, em que bairro ela mora, quais são as atividades que ela gosta de praticar, como é o português dela nas redes. Ela usa gírias, ela faz <i>memes</i>, ela entra em <i>memes</i>? A partir dessa persona, a gente vai estabelecer como que se dá a comunicação nas redes. </p>
+                                            <p>Então, se eu tenho uma persona que é superséria, ela é uma advogada muito séria, que fala no jurídico, eu não tenho como usar o <i>meme</i> com essa persona, entendeu? Mas agora, se eu tenho uma persona de um projeto que ela é muito jovem, muito solta, muito descolada, eu já posso trabalhar com uma outra linguagem. Aí já cabe uma brincadeirinha, usar aquele <i>meme</i> do momento. </p>
+                                            <p>Então isso tudo vai ser estabelecido com a persona. E a persona, é claro, é batida em reunião. O cliente tem que aprovar. A gente vai mudando algumas coisas da persona. Mas a persona também não é algo fixo, é algo que, à medida que a marca for mudando um pouco, ou o público daquela marca, ou daquele projeto ou daquela empresa mudou, então, quem sabe, a gente dá uma mudada em algumas <i>skils</i>, algumas coisas da persona. Mas, para trabalhar em <i>marketing</i> digital, é essencial.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>É muito legal isso que tu fala. É muito legal ouvir um pouco mais sobre isso, porque conecta várias coisas que a gente está tratando no material, desde o conceito de marca até como essa marca vai se posicionar lá na ponta, na rede, quanto falar com esse público. Porque, de algum jeito, quando a gente pensa no projeto cultural, em termos de comunicação, a gente vai estar pensando nele como uma marca, pensando nele desse lugar. Muito legal!</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Bom, eu teria mil coisas para perguntar, mas tem uma que a gente, Cati, criou uma persona, que é a Mirella, que é uma produtora cultural, iniciante, que está começando e a gente está fazendo, criando uma história. A gente criou uma história em quadrinhos, HQ, bem legal. E aí ela ganhou uma Aldir Blanc, está montando um espetáculo de dança que vai ser apresentado em Canoas etc.</p>
+                                            <p>E aí uma coisa que a gente estava discutindo aqui era sobre como é para uma pessoa que está começando nesse lugar, de criar projetos e produzir eventos culturais. Ela tem acesso à assessoria de imprensa? E quais os meios que essa pessoa tem que procurar, onde ela tem que buscar esse tipo de profissional? </p>
+                                            <p>Como que ela, a Mirella, por exemplo, com essa Aldir Blanc, como é que ela chegaria, quais as possibilidades que ela poderia fazer de proposta? Inclusive, adiantando um pouco mais para tu responder também. Ela tem um orçamento de 40 mil. Quanto desses 40 mil ela poderia destinar para a assessoria de imprensa para que ela tivesse, como tu disse, que a assessoria teria que estar desde o início com ela, por exemplo, nesse projeto? E aí, dentro desse orçamento, dentro dessa proposta, como é que seria essa relação? E o mais importante, acho, para os nossos alunos, é como que alguém que está começando vai desbravar esse mundo da comunicação?</p>
+                                            <p>Porque é mais fácil... mais usual, mais comum ter contato com os artistas, com os produtores locais, mas com a comunicação é um outro passo. É um passo que tem que descobrir, tem que ir atrás de <i>designer</i>, tem que ir atrás de assessor, assessoria de imprensa, de pessoas que vão cuidar da mídia. Então, para quem está começando, isso é um universo. Para o nosso aluno que está começando a descobrir... não sabe por onde começar. “Mas por onde eu começo?”.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Começa pelo Google, digita “assessoria de comunicação cultural”. Porque tudo depende do resultado que tu quer ter. Se tu tem orçamento, se tu ganhou um projeto, ganhou a lei, investe em uma assessoria, entendeu? Não tenta abraçar tudo muito sozinho. “Eu vou dar conta”. Porque tem profissionais que já estão há muito tempo, que sabem os caminhos para chegar àquilo. </p>
+                                            <p>E é pesquisar. Eu acho que é muito importante conversar com outros produtores culturais e pedir na cara dura. “Eu vi que aquele teu projeto está em um monte de lugar, como tu fez ou como conseguiu?”. E vai procurando. Mas eu acho que, às vezes, as pessoas tentam abraçar tudo junto. </p>
+                                            <p>Se é uma questão de não ter verba, eu diria “<i>ok</i>”, “<i>show</i> de bola”, porque tem que seguir os projetos. Mas se tu tem verba, investe. Se é um financiamento e tem como ter verba, investe, conversa com outros produtores. Entenda que mesmo que tu esteja chegando agora na produção, tem outras pessoas que já estão no corre, que já passaram pelos mesmos obstáculos que tu está passando. Então conversa com eles e pergunta: “conhece alguma jornalista? Conhece alguém que possa fazer um <i>designer</i>?”. Ou vai atrás de projetos que tu gostou, que tu gostou da arte, que tu gostou de como ele estava na mídia. Conversa com aquele produtor, pede uma ajuda. </p>
+                                            <p>E eu acho que pedir ajuda é muito importante na produção, porque tu vai estabelecendo e aumentando teu leque de contatos. Eu acho que isso é muito importante. </p>
+                                            <p>E tu me perguntou sobre cobrar, né?</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Não, não é bem cobrar. Vamos supor... uma brincadeira despretensiosa. Vamos supor que tu está lá no projeto com a Mirella, nossa personagem, e ela tem um projeto que ela ganhou uma Aldir Blanc de 40 mil. Ela tem esse valor. Qual valor...</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>No mínimo, uns 10%!</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Era isso!</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>No mínimo. Porque aí é o que eu te falei. Depende do que o assessor vai fazer. Depende do que o assessor vai ter. É <i>release</i>? É <i>release</i> e falar com a imprensa? </p>
+                                            <p>Eu acho que vai muito da relação que o assessor tem com o produtor cultural. Os produtores que a gente trabalha, aqui, são pessoas que a gente já tem uma relação muito de confiança, muito de segurança. Então a proposta já vem sabendo que eu já estou inserida desde o início. Eu acho que vai do bom senso. Eu acho que vai do bom senso de... aquela coisa de a pessoa saber, tentar valorar a sua hora, fazer aqueles cálculos de luz que eu gasto, a internet, o deslocamento, a minha hora de trabalho, quanto foi meu curso, quanto foi a minha faculdade, quanto foi a minha pós. Eu vou colocar isso em um papelzinho e vou tentar valorar a minha hora de trabalho. </p>
+                                            <p>Mas, nesse valor que tu me apresentou, eu imagino que, no mínimo, uns 10%. Mas acho que vai muito da conversa também, porque o produtor pode falar: “eu queria alguém para o meu projeto, eu queria colocar alguém no meu projeto, só que vai sair muito caro. Então tem como tu fazer essa parceria comigo? Eu não vou te dar 10%, mas em um futuro projeto eu...”. Não sei se eu me fiz muito clara. Eu acho que vai muito das relações. Mas eu acho também que se fosse eu, com esse valor, no mínimo, chorando, seria 10%. </p>
+                                            <p>Eu acho que vai da relação que o produtor tem com o assessor, do trabalho que o produtor está esperando que o assessor entregue, porque isso também tem que ser muito claro. Não adianta chegar lá no final e o produtor falar: “poxa, mas eu queria que tu tivesse me acompanhado nas reuniões, eu queria que tu tivesse feito tal coisa”. Mas em momento algum isso foi conversado com o assessor. Então eu acho que as relações têm que ser claras, muito claras.</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Eu queria te perguntar se, dentro desse valor da assessoria, já está implicado o trabalho nas redes sociais também, nessa divulgação nas redes sociais. Se isso é uma coisa separada, se tu vê como separado, um profissional que vai ser especialmente contratado para trabalhar as redes, ou se a assessoria trabalharia junto. Como tu costuma fazer, por exemplo?</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Eu queria pegar uma carona aí, que é o seguinte: quando a gente fala de assessoria de imprensa, está falando de um veículo que é dos outros. Na rede social, tu está trabalhando com um veículo que... tu pode trabalhar com outras contas, mas também trabalha com a tua conta. Então vai produzir alguns materiais específicos para movimentar aquela conta. E se tu pudesse embutir nessa resposta também um pouquinho, alguma luz, sobre esses materiais, sobre como se aborda isso e a relação com o <i>designer</i> também.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Pode ser o mesmo profissional. Eu tenho vários projetos que eu pego os dois, faço assessoria e faço produção de conteúdo. Eu gosto mesmo é de produção de conteúdo. Eu tenho uma paixãozinha por redes. Eu gosto, amo fazer um planejamento de conteúdos. Eu tenho paixão. </p>
+                                            <p>Por exemplo, quando o projeto é fechado, a gente estabelece um calendário, um cronograma de pautas. Então, na verdade, eu sempre trabalho primeiro com as editorias. Então, eu estabeleço as editorias que vão ser trabalhadas. Por exemplo, dentro de um projeto, poderia ser um participante sobre o projeto... e atividades, ou talvez uma dica, que daí entraria uma editoria relacionada ao tema do projeto. Eu acho que estabelecendo as editorias que serão trabalhadas nas redes, a partir disso a gente vai construindo as sugestões de pauta para os conteúdos. </p>
+                                            <p>O meu trabalho é sempre assim. Eu monto um planejamento, monto as editorias, monto os possíveis conteúdos a serem trabalhados dentro dessa editoria, aí o produtor dá <i>ok</i>. Eu vou montar o cronograma propriamente dito, a apresentação. Então coloco tanto o tema que vai ser trabalhado... e já coloco algumas ideias ou a foto da participante. Marco o <i>designer</i>, o <i>designer</i> pega quase que em massa, a gente trabalha muito em produção em massa mesmo. Eu sento e fecho 15 dias de um planejamento, boto todas as possíveis artes para a produção, monto todas as legendas. Isso vai para o <i>designer</i>. O <i>designer</i> pega um turno, começa a fazer todas as peças, os vídeos, os carrosséis. Isso volta para mim e eu envio para o cliente aprovar. E a gente começa a fazer as programações nas redes sociais.</p>
+                                            <p>Para o planejamento das redes sociais, é importante que a gente tenha esse conteúdo prévio. Não posso passar hoje o que eu quero que entre segunda para o meu cliente. Não posso, porque ele tem que ter o tempo que ele vai parar. Ele tem que ver. “Isso é legal, mas eu acho que dá para colocar, dá para falar mais sobre a participante. Quando ela atuou no projeto?”. Então a gente tem que ter esse tempo para revisar. Tem que ser uma produção que seja confortável para todos que estão fazendo, para que não seja “me embolei, a assessoria me passou 15 <i>posts</i> para eu responder porque tem que entrar amanhã”. Não. </p>
+                                            <p>Então a gente trabalha sempre com planejamento prévio. Então agora, 25 de agosto, dos meus clientes, eu já estou com a primeira quinzena de setembro aprovada. Então agora eu vou começar a pensar a última quinzena de setembro para a gente aprovar. </p>
+                                            <p>Então tem que estar trabalhando com essa... já tem que ter os conteúdos prontos até para se surgir uma urgência, tu vai ter esse tempo de produção. Então já vai estar tudo ali, já vai estar programado. As plataformas, as ferramentas para as plataformas vão fazer tudo por ti. Aprovou, programou e começa a pensar nos próximos 15 dias, um mês, o tempo que for o projeto.</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Cati, agora a gente quer saber se tu topa fazer conosco um exercício de criação... é uma brincadeira. </p>
+                                            <p>A gente tem a Mirella, como o Francisco já falou, e ela é uma produtora de 20 e poucos anos. Aprovou recém, pela primeira vez, um projeto na Lei Aldir Blanc. É um espetáculo com bailarinas de dança de rua, é uma dança urbana, porém com uma diretora de dança contemporânea de Porto Alegre. O grupo é de Canoas. E essa diretora já tem uma vasta carreira. </p>
+                                            <p>Então a gente gostaria de propor para ti: de que maneira tu montaria um plano de comunicação, levando em consideração essas informações que a gente deu? A produtora está fazendo o seu primeiro projeto maior, com uma verba, com um grupo também relativamente novo de danças urbanas, com a direção de uma coreógrafa reconhecida da dança contemporânea aqui de Porto Alegre.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Olha, eu acho que, prezando sempre pelo que... o mais importante é o que vai ter notícia. Para mim, o foco seria fazer a primeira chamada com... eu não entendi. É uma professora, né? Com a professora de dança contemporânea.</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>É a coreógrafa, a criadora que vai propor a coreografia, enfim, trabalhar com as bailarinas também criadoras.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu acho que o foco seria trabalhar bem essa divulgação, porque, se ela já é reconhecida, tu consegue chamar primeiro para a coreógrafa. Então já se tem um público e já se tem um público de imprensa, de comunicação, que vai reconhecer isso. E tu está trabalhando com o que, digamos, já é conhecido. </p>
+                                            <p>Eu faria chamando primeiro... inclusive a gente fez isso em um dos projetos. A gente tinha uma mediadora que era muito importante. Então toda a nossa primeira comunicação foi para a mediadora e depois nós começamos a trabalhar com os palestrantes, com as atividades em si, porque, se ela é o que chama mais, vamos usar ela. Vamos pegar a audiência dela para atrair e para fazer com que a pessoa conheça um projeto. </p>
+                                            <p>Eu acho que a minha sugestão seria focar o <i>release</i>, como se fossem chamadas nas redes, para a coreógrafa. Prendeu a atenção pela coreógrafa? Então vamos começar a falar sobre a Mirella. Vamos começar a falar sobre o projeto em si. Vamos trazer em uma outra postagem a coreógrafa de novo. Vamos trabalhar agora com um <i>release</i> que fale sobre o espetáculo e tenha um segundo ou um terceiro parágrafo falando sobre a coreógrafa. Vamos fazer um título falando do espetáculo, mas na linha de apoio vai estar o nome da coreógrafa, porque daí, quando isso for para o Google e procurarem pela coreógrafa, vão chegar a esse <i>release</i>. Trazer o que é mais importante para evidência. </p>
+                                            <p>Eu focaria a coreógrafa. Inclusive, Mirella, se quiser, me chama que a gente negocia esses 10%.</p>
+                                            <p>Estamos batalhando uma Aldir Blanc!</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Vamos passar o teu contato para ela.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>A gente fica muito escrevendo as coisas da Mirella e pensando nela. É quase como se ela existisse e, às vezes, a gente fica querendo que ela exista, porque ela parece tão legal.</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Acho que vocês iam se acertar. Vocês iam trabalhar bem, juntas.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu acho também. Fica a sugestão.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Cati, a gente vai se encaminhando para o final dessa conversa, que foi maravilhosa e muito instrutiva. Tenho certeza de que os nossos alunos vão adorar te conhecer e conhecer um pouquinho mais do teu trabalho. Eu acho que tu fala com um gosto incrível do que faz. Isso é muito cativante de ouvir. Mas eu queria te pedir, ainda, te explorar um pouquinho mais, para te pedir talvez uma ou outra dica que tu pudesse compartilhar com a gente sobre esse universo. </p>
+                                            <p>Claro, tu falou do Google... quer dizer, vamos buscar, vai procurar, tem muita informação por aí. Mas se tem algum projeto, de repente, que tu acha que tem... especialmente... que tu gostaria de indicar ou que seria interessante de ver, ou algum material sobre assessoria, sobre comunicação que é legal de a gente procurar também. Seria legal te ouvir nesse sentido, e aí já encaminhar para o final.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu acho que é fundamental estar atualizado, ler, entender, saber que existem outros canais de comunicação, saber que existe <i>podcast</i>, saber que existem outros espaços dentro das redes, que o Twitter tem um canal de áudios, tem o Spaces, que funciona. Conhecer, eu acho que é importante conhecer. </p>
+                                            <p>Acho que tem algumas regras do jornalismo que são muito importantes levar. Ler, eu acho que a leitura... seja formado, seja em formação, leia para aprender palavras novas, para ter novas referências, para conseguir escrever melhor. Leia ficção. Leia coisas boas, que tragam uma referência de mundo também.</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>Maravilha! Obrigado pelas dicas.</p>
+                                            <p><b>Orador 4 </b></p>
+                                            <p>Estamos chegando ao final. Não é isso?</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu agradeço, pessoal!</p>
+                                            <p><b>Orador 3 </b></p>
+                                            <p>É muito bom te ouvir. É muito bom ouvir uma pessoa que gosta de fazer cronograma, planejamento. </p>
+                                            <p>Esse animal exótico... de vez em quando. Mas maravilhoso, Cati, muito obrigado pela tua generosidade de estar aqui com a gente nesses minutos que se estenderam, mas é porque estava muito legal. “A gente vai conversar 15 minutos”.</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Muito obrigada, Cati. Acho que os nossos alunos vão curtir bastante tudo o que tu trouxe para a gente.</p>
+                                            <p><b>Orador 1 </b></p>
+                                            <p>Eu agradeço. E o que vocês precisarem, eu fico à disposição. Foi um ótimo papo, gente. Muito obrigada. Um ótimo trabalho, pessoal!</p>
+                                            <p><b>Orador 2 </b></p>
+                                            <p>Obrigada também.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                     </div>
                 </div>
 
                 <div class="bloco-1-6">
-                    <div class="container">
+                    <div class="container no-print">
                         <h3>Pratique!</h3>
                         
                         <div class="esquemaDaBru">
@@ -603,18 +791,22 @@
                 <div class="bloco-2-2">
                     <div class="container">
                         <p>As seguintes estratégias para posicionamento de marca podem ser adotadas:</p>
-                        <ul>
-                            <li>Identificar com mais exatidão seu público-alvo.</li>
-                            <li>Escrever em uma frase o que o seu produto/serviço pode proporcionar ao cliente.</li>
-                            <li>Definir o posicionamento atual de sua marca em relação a outras marcas semelhantes.</li>
-                            <li>Definir o seu diferencial em comparação a iniciativas semelhantes à sua.</li>
-                            <li>Identificar/criar um pequeno texto que responda à pergunta: o que torna sua marca
-                                especial?</li>
-                            <li>Criar um documento de posicionamento com duas ou três frases que comunicam os <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Princípios éticos e crenças que posicionam a marca publicamente.">valores</a>
-                                exclusivos
-                                da sua marca, ou seja, o que ela defende e quais são a <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Micro história que conta os desejos e aspirações, ou seja, a forma como a marca quer ser lembrada">visão</a> e a <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Declaração breve que fala os objetivos, foco principal e propósito da marca.">missão</a> dela.</li>
-                            <li>Definir como quer que sua marca seja reconhecida.</li>
-                        </ul>
+                        <div class="pg2-lista">
+                            <img src="assets/02/lista1.png" class="lista-elemento01 no-print" aria-hidden="true">
+                            <ul>
+                                <li>Identificar com mais exatidão seu público-alvo.</li>
+                                <li>Escrever em uma frase o que o seu produto/serviço pode proporcionar ao cliente.</li>
+                                <li>Definir o posicionamento atual de sua marca em relação a outras marcas semelhantes.</li>
+                                <li>Definir o seu diferencial em comparação a iniciativas semelhantes à sua.</li>
+                                <li>Identificar/criar um pequeno texto que responda à pergunta: o que torna sua marca
+                                    especial?</li>
+                                <li>Criar um documento de posicionamento com duas ou três frases que comunicam os <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Princípios éticos e crenças que posicionam a marca publicamente.">valores</a>
+                                    exclusivos
+                                    da sua marca, ou seja, o que ela defende e quais são a <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Micro história que conta os desejos e aspirações, ou seja, a forma como a marca quer ser lembrada">visão</a> e a <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Declaração breve que fala os objetivos, foco principal e propósito da marca.">missão</a> dela.</li>
+                                <li>Definir como quer que sua marca seja reconhecida.</li>
+                            </ul>
+                            <img src="assets/02/lista2.png" class="lista-elemento02 no-print" aria-hidden="true">
+                        </div>
                         <p>Assim, percebe-se que o <em>branding</em> é um processo criativo e de pesquisa de mercado,
                             pois um
                             posicionamento bem estruturado e forte faz com que seu público-alvo saiba, confie e acredite
@@ -680,7 +872,7 @@
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                         data-bs-target="#collapseThree" aria-expanded="false"
                                         aria-controls="collapseThree">
-                                        Grupo Balcão
+                                        Grupo Galpão
                                     </button>
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse"
@@ -713,7 +905,7 @@
                         </p>
                     </div>
                 </div>
-                <img src="assets/02/divisoria.png" alt="" class="divisoria">
+                <img src="assets/02/divisoria.png" alt="" class="divisoria no-print">
                 <div class="bloco-2-3">
                     <div class="container">
                         <p>Para melhor definir um <em>branding</em>, usam-se, na comunicação, as ferramentas do
@@ -742,12 +934,12 @@
                 </div>
                 <div class="modal fade" id="modal-5" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="false">
                     <div class="modal-dialog modal-fullscreen" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content no-print">
                             <div class="modal-header">
                                 <h5 class="modal-title">
                                     <em>Marketing mix</em>: 4 Ps e 7 Ps do <em>marketing</em>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -756,7 +948,7 @@
                                     <p>Os 4 Ps, em suma, são uma classificação de quatro grandes universos para pensar estratégias de vendas/serviços, que são: <b>produto, preço, praça e promoção</b>.</p>
                                     <p>Clique sobre os <em>cards</em> a seguir e veja o que cada “<b>P</b>” fala sobre atividades e partes que precisam ser levadas em consideração para pensar estratégias e <em>branding</em>.</p>
                                     
-                                    <div class="row row-carta">
+                                    <div class="row row-carta no-print">
                                         <div class="cartaMemoria" data-par="1">
     
                                             <div class="ladoFrente">
@@ -776,7 +968,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row row-carta">
+                                    <div class="row row-carta no-print">
                                         <div class="cartaMemoria" data-par="1">
     
                                             <div class="ladoFrente">
@@ -795,6 +987,16 @@
                                                 <img src="assets/02/card_4_verso.png" alt="">
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="d-none print">
+                                        <img src="assets/02/card_1_frente.png" alt="">
+                                        <img src="assets/02/card_1_verso.png" alt="">
+                                        <img src="assets/02/card_2_frente.png" alt="">
+                                        <img src="assets/02/card_2_verso.png" alt="">
+                                        <img src="assets/02/card_3_frente.png" alt="">
+                                        <img src="assets/02/card_3_verso.png" alt="">
+                                        <img src="assets/02/card_4_frente.png" alt="">
+                                        <img src="assets/02/card_4_verso.png" alt="">
                                     </div>
                                     <br><br><br>
                                     <h4>7 Ps</h4>
@@ -842,15 +1044,14 @@
                         </div>
                     </div>
                 </div>
-    
                 <div class="modal fade" id="modal-6" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="false">
                     <div class="modal-dialog modal-fullscreen" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content no-print">
                             <div class="modal-header">
                                 <h5 class="modal-title">
                                     Matriz SWOT
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
                                 <div class="container">
@@ -874,6 +1075,51 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-none print">
+                    <h3><em>Marketing mix</em>: 4 Ps e 7 Ps do <em>marketing</em></h3>
+                    <h4>4 Ps</h4>
+                    <p>A origem do <em>mix</em> de <em>marketing</em> (ou 4 Ps) se deu por volta de 1960, com estudos voltados ao campo da comunicação e que até hoje ganham maiores contornos. Philip Kotler foi um grande difusor e estudioso sobre o tema. A ideia é gerar parâmetros que auxiliem no <em>branding</em> e no plano de <em>marketing</em> de empresas, produtos e serviços.</p>
+                    <p>Os 4 Ps, em suma, são uma classificação de quatro grandes universos para pensar estratégias de vendas/serviços, que são: <b>produto, preço, praça e promoção</b>.</p>
+                    <p>Clique sobre os <em>cards</em> a seguir e veja o que cada “<b>P</b>” fala sobre atividades e partes que precisam ser levadas em consideração para pensar estratégias e <em>branding</em>.</p>
+                    <div>
+                        <img src="assets/02/card_1_frente.png" alt="">
+                        <img src="assets/02/card_1_verso.png" alt="">
+                        <img src="assets/02/card_2_frente.png" alt="">
+                        <img src="assets/02/card_2_verso.png" alt="">
+                        <img src="assets/02/card_3_frente.png" alt="">
+                        <img src="assets/02/card_3_verso.png" alt="">
+                        <img src="assets/02/card_4_frente.png" alt="">
+                        <img src="assets/02/card_4_verso.png" alt="">
+                    </div>
+                    <br><br><br>
+                    <h4>7 Ps</h4>
+                    <p>Com o passar do tempo, surgiram mais três pontos, que são: <b>pessoas, processos e prova física</b>. Assim, os 4 Ps viraram 7 Ps, tornando mais completa a ferramenta. Para conhecer esses outros “Ps”, clique sobre os <em>cards</em> a seguir. </p>
+                    <br>
+                    <div>
+                        <img src="assets/02/card_5_frente.png" alt="">
+                        <img src="assets/02/card_5_verso.png" alt="">
+                        <img src="assets/02/card_6_frente.png" alt="">
+                        <img src="assets/02/card_6_verso.png" alt="">
+                        <img src="assets/02/card_7_frente.png" alt="">
+                        <img src="assets/02/card_7_verso.png" alt="">
+                    </div>
+
+                    <h3>Matriz SWOT</h3>
+                    <p>Outra ferramenta possível é a matriz SWOT (conhecida no Brasil como <b>matriz FOFA</b>), que auxilia na avaliação e na tomada de decisões. Essa ferramenta auxilia na análise de pontos fortes e fracos, oportunidades e ameaças, para as propostas de comunicação que serão criadas.</p>
+                    <p>SWOT, como já vimos, é uma sigla em inglês para os termos <em>strengths</em> (pontos fortes), <em>weaknesses</em> (pontos fracos), <em>opportunities</em> (oportunidades) e <em>threats</em> (ameaças). Os pontos fortes e fracos, em geral, estão dentro da própria empresa, enquanto as oportunidades e as ameaças, na maioria dos casos, têm origem externa (NAKAGAWA, 2022).</p>
+                    <p>A proposta da matriz SWOT é cruzar dados para uma organização estratégica. Assim, é possível colocar na sua “caixa de costura” fatores que você vai levar em consideração na hora de criar, por exemplo, toda a comunicação e divulgação de um <em>show</em> musical. Considerando fatores internos e externos para tomadas de decisões, no âmbito do <em>marketing</em>, por exemplo, é possível posicionar melhor a “marca” e direcionar mais assertivamente a <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Campanha publicitária é o conjunto de ações que informam o público sobre  uma ideia, serviço, empresa, produto ou evento.">campanha</a> ao público-alvo. Essa ferramenta se propõe a ser um quadro simples, para refletir sobre aspectos internos e externos à produção e pensar estratégias. A seguir, veja a matriz SWOT.</p>
+                    <figure>
+                        <img src="assets/02/matriz_swot.png" class="img-fluid d-block m-auto" alt="Imagem com fundo amarelo. Ao topo, está escrito “Matriz SWOT”. Abaixo: “Contribui para as estratégias”, “Dificulta as estratégias”, “Aspectos internos”, “S” (pontos fortes), “W” (pontos fracos), “Aspectos externos”, “O” (oportunidades), “T” (ameaças).">
+                        <figcaption>Figura 5 – Matriz SWOT<br>
+                            Fonte: Sesc EJA EAD (2022)</figcaption>
+                    </figure>
+                    <p>Assim, quando se pensa em uma campanha publicitária, um <em>branding</em> ou um plano de comunicação de produções culturais, é preciso tentar responder às perguntas da figura anterior para ter mais informações na hora de criar a campanha. </p>
+                    <div class="anotacao">
+                        <p><b>Lembrete até aqui</b>: esses processos de plano de comunicação e <em>marketing</em>, <em>branding</em>, posicionamento de marca, campanha publicitária e divulgação são processos de criação. Para tanto, utilizam-se ferramentas (<em>mix</em> do <em>marketing</em> e matriz SWOT), mas é preciso também um olhar criativo que dialogue com o público e os patrocinadores, com a finalidade de potencializar a produção cultural. Sendo assim, ao criar um simples cartaz para um espetáculo de dança, você está em um momento de criação artística.</p>
+                    </div>
+                </div>
+
+
             </div>
 
             <div class="pagina">
@@ -910,11 +1156,14 @@
                         </figure>
                     </div>
                 </div>
-                <img src="assets/03/divisoria_1.png" alt="" class="divisoria divisoria-3-1">
+                <img src="assets/03/divisoria_1.png" alt="" class="divisoria divisoria-3-1 no-print">
                 <div class="bloco-3-2">
                     <div class="container">
                         <h3>Assessoria de imprensa e <em>release</em></h3>
-                        <video src=""></video>
+                        <p>Assista ao vídeo e conheça mais sobre a assessoria de imprensa e release.</p>
+
+                        <iframe class="d-none d-sm-block m-auto no-print" width="640" height="360" src="https://www.youtube.com/embed/aivU7-F9whU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe class="d-block d-sm-none m-auto no-print" width="320" height="180" src="https://www.youtube.com/embed/aivU7-F9whU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                         <div class="sr-only">
                             <p>A assessoria de imprensa dos projetos culturais é realizada, geralmente, por um
@@ -961,48 +1210,50 @@
                                 os releases na forma de áudio release e vídeo release.</p>
                         </div>
 
-                        <h3>Pratique!</h3>
+                        <div class="no-print">
+                            <h3>Pratique!</h3>
                         
-                        <div class="esquemaDaBru">
-                            <p class="enunciado" tabindex="0">1)     A assessoria de imprensa dos projetos culturais é realizada, geralmente, por um profissional de Comunicação Social, formado em Jornalismo ou Relações Públicas.</p>
-                            <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
-                            <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
-                            <div class="feedbacks">
-                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
-                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                            <div class="esquemaDaBru">
+                                <p class="enunciado" tabindex="0">1)     A assessoria de imprensa dos projetos culturais é realizada, geralmente, por um profissional de Comunicação Social, formado em Jornalismo ou Relações Públicas.</p>
+                                <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
+                                <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
+                                <div class="feedbacks">
+                                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
+                                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="esquemaDaBru">
-                            <p class="enunciado" tabindex="0">2) Uma das ferramentas mais utilizadas pelo assessor de imprensa para divulgar projetos culturais é o <em>release</em>.</p>
-                            <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
-                            <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
-                            <div class="feedbacks">
-                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
-                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                            <div class="esquemaDaBru">
+                                <p class="enunciado" tabindex="0">2) Uma das ferramentas mais utilizadas pelo assessor de imprensa para divulgar projetos culturais é o <em>release</em>.</p>
+                                <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
+                                <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
+                                <div class="feedbacks">
+                                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
+                                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="esquemaDaBru">
-                            <p class="enunciado" tabindex="0">3) O <em>release</em> funciona como um portfólio para a assessoria de imprensa.</p>
-                            <button class="alt-e btn-sesc" title="alternativa: ">a) Verdadeiro</button>
-                            <button class="alt-c btn-sesc" title="alternativa: ">b) Falso</button>
-                            <div class="feedbacks">
-                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
-                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                            <div class="esquemaDaBru">
+                                <p class="enunciado" tabindex="0">3) O <em>release</em> funciona como um portfólio para a assessoria de imprensa.</p>
+                                <button class="alt-e btn-sesc" title="alternativa: ">a) Verdadeiro</button>
+                                <button class="alt-c btn-sesc" title="alternativa: ">b) Falso</button>
+                                <div class="feedbacks">
+                                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
+                                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="esquemaDaBru">
-                            <p class="enunciado" tabindex="0">4) Algo importante de ter em mente quando se pensa em um <em>release</em> é que ele é uma notícia, e não um anúncio, ou seja, é um texto jornalístico, e não publicitário.</p>
-                            <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
-                            <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
-                            <div class="feedbacks">
-                                <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
-                                <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                            <div class="esquemaDaBru">
+                                <p class="enunciado" tabindex="0">4) Algo importante de ter em mente quando se pensa em um <em>release</em> é que ele é uma notícia, e não um anúncio, ou seja, é um texto jornalístico, e não publicitário.</p>
+                                <button class="alt-c btn-sesc" title="alternativa: ">a) Verdadeiro</button>
+                                <button class="alt-e btn-sesc" title="alternativa: ">b) Falso</button>
+                                <div class="feedbacks">
+                                    <p class="f-positivo text-success mt-2 mb-2 animate__animated animate__shakeY" style="display: none;"><i class="fas fa-check"></i> Parabéns! Você está correto!</p>
+                                    <p class="f-negativo text-danger  mt-2 mb-2 animate__animated animate__shakeX" style="display: none;"><i class="fas fa-times"></i> Infelizmente sua resposta está incorreta. Tente novamente!</p>
+                                </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
-                <img src="assets/03/divisoria_2.png" alt="" class="divisoria divisoria-3-2">
+                <img src="assets/03/divisoria_2.png" alt="" class="divisoria divisoria-3-2 no-print">
                 <div class="bloco-3-3">
                     <div class="container">
                         <h3>Mídias digitais (<em>social media</em>)</h3>
@@ -1038,25 +1289,27 @@
 
                         <p>Hoje as tarefas do profissional de <em>social media</em> são:</p>
 
-                        <ul>
-                            <li>Definir e acompanhar métricas nas diversas redes sociais.</li>
-                            <li>Acompanhar retenção de público (quanto tempo as pessoas ficam assistindo ou
-                                interagindo).</li>
-                            <li>Gerenciar e atualizar perfil de redes sociais.</li>
-                            <li>Criar conteúdo para mídias digitais e redes sociais.</li>
-                            <li>Interagir com o público, por meio de mensagens, <em>direct</em> (no Instagram) e
-                                comentários.
-                            </li>
-                            <li>Atrair tráfego para os canais que gerencia (seja de forma paga, seja de <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Atração para redes sociais sem impulsionar de maneira paga.">forma orgânica</a>).
-                                Às
-                                vezes, esse profissional pode acumular as funções de assessor de imprensa e <em>social
-                                    media</em>. O planejamento de postagens é essencial para quem quer fazer a
-                                divulgação do seu
-                                evento em redes sociais.</li>
-                        </ul>
+                        <div class="bg-checklist">
+                            <ul class="checklist">
+                                <li>Definir e acompanhar métricas nas diversas redes sociais.</li>
+                                <li>Acompanhar retenção de público (quanto tempo as pessoas ficam assistindo ou
+                                    interagindo).</li>
+                                <li>Gerenciar e atualizar perfil de redes sociais.</li>
+                                <li>Criar conteúdo para mídias digitais e redes sociais.</li>
+                                <li>Interagir com o público, por meio de mensagens, <em>direct</em> (no Instagram) e
+                                    comentários.
+                                </li>
+                                <li>Atrair tráfego para os canais que gerencia (seja de forma paga, seja de <a href="#" data-bs-toggle="tooltip" class="tooltip-link" title="" data-bs-original-title="Atração para redes sociais sem impulsionar de maneira paga.">forma orgânica</a>).
+                                    Às
+                                    vezes, esse profissional pode acumular as funções de assessor de imprensa e <em>social
+                                        media</em>. O planejamento de postagens é essencial para quem quer fazer a
+                                    divulgação do seu
+                                    evento em redes sociais.</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <img src="assets/03/divisoria_3.png" alt="" class="divisoria divisoria-3-3">
+                <img src="assets/03/divisoria_3.png" alt="" class="divisoria divisoria-3-3 no-print">
                 <div class="bloco-3-4">
                     <div class="container">
                         <p>Para cada rede social há uma maneira de ter acesso a informações. No Instagram, por exemplo,
@@ -1076,9 +1329,25 @@
                             (anúncios) e
                             outras ferramentas muito úteis, por exemplo:</p>
                         
-                        <video src=""></video>
+                        <div class="row no-print">
+                            <div class="col-sm-6 col-xs-12">
+                                <iframe class="videos-youtube" width="320" height="180" src="https://www.youtube.com/embed/aiiFn5_ouRc" title="Sesc EAD EJA | Produtor Cultural | Youtube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <iframe class="videos-youtube" width="320" height="180" src="https://www.youtube.com/embed/k0Y3jAanVVY" title="Sesc EAD EJA | Produtor Cultural | WhatsApp" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <iframe class="videos-youtube" width="320" height="180" src="https://www.youtube.com/embed/NkUvhc4Krbc" title="Sesc EAD EJA | Produtor Cultural | TikTok" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                            </div>
+                            <div class="col-sm-6 col-xs-12">
+                                <iframe class="videos-youtube" width="320" height="180" src="https://www.youtube.com/embed/-EDZ-XMRLdU" title="Sesc EAD EJA | Produtor Cultural | Instagram" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                            </div>
+                            <div class="col-sm-12 col-xs-12">
+                                <iframe class="videos-youtube" width="320" height="180" src="https://www.youtube.com/embed/83CwY0m4sUU" title="Sesc EAD EJA | Produtor Cultural | Facebook" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+                            </div>
+                        </div>
 
-                        <div class="hidden-xs">
+                        <div class="hidden-xs no-print">
                             <h3>Pratique!</h3>
                             <p>Sabe-se, então, que a comunicação de projeto é muito importante, por isso sempre se destina
                                 uma parte
@@ -1201,7 +1470,7 @@
 
                     </div>
                 </div>
-                <img src="assets/03/divisoria_4.png" alt="" class="divisoria divisoria-3-4">
+                <img src="assets/03/divisoria_4.png" alt="" class="divisoria divisoria-3-4 no-print">
                 <div class="bloco-3-5">
                     <div class="container">
                         <h3>Relatório de comunicação e <em>clipping</em></h3>
@@ -1405,7 +1674,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="assets/03/divisoria_5.png" alt="" class="divisoria divisoria-3-5">
+                <img src="assets/03/divisoria_5.png" alt="" class="divisoria divisoria-3-5 no-print">
                 <div class="bloco-3-6">
                     <div class="container">
                         <h3>Qual é o papel do produtor cultural nessa história?</h3>

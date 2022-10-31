@@ -18,6 +18,10 @@
         <h1>Aguarde enquanto o conteúdo é carregado.</h1>
     </div>
     <div id="wrapper">
+        <div class="btn-video">
+            Assista novamente ao<br> vídeo introdutório
+            <img class="img-play" src="assets/tela_inicial/Video-bt.png" alt="">
+        </div>
         <div class="menu">
             <a id="link-1" class="animate__animated animate__backInRight" href="conteudo/index.html?page=1"></a>
             <a id="link-2" class="animate__animated animate__backInRight animate__delay-1s" href="conteudo/index.html?page=2"></a>
@@ -26,12 +30,21 @@
         </div>
     </div>
    
+    <div class="backdrop">
+        <div class="modal-video">
+            <p>Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo a seguir:</p>
+            <iframe class="ytb" src="https://www.youtube.com/embed/XsX6RfEmfh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button class="fechar">Fechar</button>
+        </div>
+    </div>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="assets/bootstrap/bootstrap.bundle.min.js"></script>
     <!--Jquery-->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/geral.js"></script>
+    <script src="assets/js/tela_inicial.js"></script>
+
 </body>
 
 </html>

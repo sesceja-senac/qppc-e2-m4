@@ -1,11 +1,24 @@
+@keyframes BackgroundAnim {
+    0%{
+        background-image: url('../tela_inicial/background.png');
+    }
+    50%{
+        background-image: url('../tela_inicial/background-noite.jpg');
+    }
+    100%{
+        background-image: url('../tela_inicial/background.png');
+    }
+}
+
 #wrapper {
     height: 100vh;
     width: 100vw;
-    background-image: url('../tela_inicial/background.png');
+    /*background-image: url('../tela_inicial/background.png');*/
     background-position: center;
     background-size: cover;
     position: relative;
     overflow-x: hidden;
+    animation: BackgroundAnim 9s infinite;
 }
 .menu {
     position: absolute;
@@ -43,4 +56,125 @@
 }
 #link-4:hover {
     background-image: url('../tela_inicial/bt_4_hover.png');
+}
+
+/* Modal vídeo */
+.backdrop {
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: #33333395;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-video {
+    width: 1100px;
+    height: 650px;
+    background-image: url('../tela_inicial/Video-apresentacao-gd.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 100px;
+    padding-left: 210px;
+    color: white;
+}
+
+.ytb {
+    width: 560px;
+    height: 315px;
+    display: block;
+    margin: 15px;
+}
+
+.fechar {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    display: block;
+    float: right;
+    margin-right: 320px;
+    padding: 5px 15px;
+}
+
+.fechar:hover {
+    background-color: white;
+    color: #007981;
+}
+
+.btn-video {
+    width: 227px;
+    height: 227px;
+    background-image: url('../tela_inicial/Video-apresentacao-pq.png');
+    padding-left: 28px;
+    padding-top: 25px;
+    color: white;
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    z-index: 89;
+}
+.btn-video:hover {
+    transform: scale(1.01);
+    cursor: pointer;
+}
+
+.img-play {
+    height: 100px;
+    margin-left: 22px;    
+}
+
+
+@media (max-width: 900px) {
+    .modal-video {
+        padding-left: 180px;
+        padding-top: 140px;
+    }
+    .ytb {
+        width: 400px;
+        height: 250px;
+    }
+    .fechar {
+        margin-right: 220px;
+    }
+    .btn-video {
+        top: auto;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu{
+        bottom: 210px;
+    }
+}
+
+@media (max-width: 500px) {
+    .modal-video {
+        width: 95%;
+        margin: 5px;
+        background-image: unset;
+        background-color: #007981;
+        height: auto;
+        padding: 15px;
+    }
+    .ytb {
+        height: 200px;
+        width: 300px;
+    }
+    .btn-video {
+        top: 830px;
+        background-image: unset;
+        background-color: #007981;
+        height: auto;
+        padding: 15px 25px;
+        box-shadow: 3px 3px 6px #333;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .img-play {
+        display: none;
+    }
 }
